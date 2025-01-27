@@ -1,0 +1,589 @@
+months_as_customer,age,policy_number,policy_bind_date,policy_state,policy_csl,policy_deductable,policy_yearly_premium_amount,umbrella_limit,insured_zip,insured_gender,insured_education_level,insured_occupation,insured_relationship,capital-gains,capital-loss,incident_date,incident_type,type_of_collision,severity_of_incident,authorities_contacted,incident_state,incident_city,location_of_incident,incident_hour_of_the_day,number_of_vehicles_involved,property_damaged,bodily_injuries,no_of_witnesses,police_report_available,total_amount_claimed,injury_claim,property_claim,vehicle_claim,auto_make,model_of_auto,auto_year_manufactured,fraud_reported
+247,44,926665,02-04-1992,OH,250/500,2000,1101.51,0,619108,FEMALE,College,farming-fishing,not-in-family,64000,0,02-11-2015,Multi-vehicle Collision,Front Collision,Minor Damage,Fire,NY,Riverwood,9879 Apache Drive,22,3,NO,2,2,NO,69480,11580,11580,46320,Chevrolet,Tahoe,2008,N
+56,29,302669,6/29/2006,IL,100/300,1000,1523.17,0,610479,MALE,Masters,prof-specialty,own-child,0,0,2/21/2015,Multi-vehicle Collision,Front Collision,Major Damage,Fire,PA,Northbend,2494 Andromedia Drive,10,3,?,1,2,YES,94560,7880,15760,70920,Jeep,Grand Cherokee,1995,N
+210,39,620020,6/21/1997,OH,500/1000,1000,984.45,0,474998,MALE,Associate,armed-forces,unmarried,0,0,01-02-2015,Vehicle Theft,?,Minor Damage,None,NC,Riverwood,4615 Embaracadero Ave,4,1,YES,1,2,?,7800,780,780,6240,Dodge,RAM,1997,N
+108,32,439828,09-07-2006,OH,500/1000,2000,1257,4000000,616341,FEMALE,High School,machine-op-inspct,unmarried,63900,-43700,01-11-2015,Single Vehicle Collision,Front Collision,Total Loss,Other,WV,Northbrook,1929 Britain Drive,23,1,NO,1,3,NO,61270,5570,11140,44560,Suburu,Legacy,1999,N
+328,49,971295,10-01-2001,OH,500/1000,500,1434.51,0,460535,FEMALE,Masters,transport-moving,wife,0,0,2/23/2015,Single Vehicle Collision,Rear Collision,Total Loss,Police,NY,Riverwood,5051 Elm St,19,1,?,0,2,YES,71440,8930,8930,53580,Mercedes,ML350,2005,N
+186,37,165565,2/20/2009,OH,250/500,2000,1628,0,606487,FEMALE,JD,priv-house-serv,unmarried,0,0,1/28/2015,Single Vehicle Collision,Rear Collision,Total Loss,Ambulance,NY,Hillsdale,9910 Maple Ave,22,1,YES,1,2,YES,55600,11120,5560,38920,Jeep,Grand Cherokee,2009,N
+277,44,936543,6/26/2001,IN,500/1000,500,1412.31,0,620737,MALE,High School,priv-house-serv,unmarried,0,0,02-01-2015,Vehicle Theft,?,Trivial Damage,Police,NC,Riverwood,5602 Britain St,6,1,NO,1,3,NO,5000,1000,500,3500,Jeep,Wrangler,2005,N
+138,33,296960,1/18/1997,IL,250/500,500,1362.87,5000000,445904,FEMALE,JD,exec-managerial,own-child,56900,-56900,2/24/2015,Single Vehicle Collision,Side Collision,Minor Damage,Other,NY,Springfield,6889 Cherokee St,6,1,NO,2,0,?,95810,14740,14740,66330,BMW,X5,2007,N
+208,41,501692,6/24/2014,IN,100/300,1000,1134.68,0,464145,FEMALE,College,tech-support,husband,0,0,1/20/2015,Single Vehicle Collision,Rear Collision,Major Damage,Ambulance,SC,Northbend,3926 Rock Lane,18,1,NO,2,2,?,69300,6930,13860,48510,Volkswagen,Jetta,1996,N
+147,37,525224,10-02-1992,IN,250/500,1000,1306.78,0,466818,MALE,MD,prof-specialty,other-relative,0,0,1/14/2015,Single Vehicle Collision,Front Collision,Total Loss,Ambulance,SC,Northbend,6717 Best Drive,22,1,?,1,0,NO,81120,13520,20280,47320,Toyota,Camry,1995,N
+8,21,355085,10-09-2012,IN,500/1000,500,1021.9,0,464237,MALE,High School,handlers-cleaners,husband,0,0,02-05-2015,Single Vehicle Collision,Front Collision,Major Damage,Other,WV,Columbus,6117 4th Ave,21,1,?,0,0,?,91260,14040,14040,63180,Toyota,Corolla,2012,N
+297,48,830729,02-10-1993,IN,100/300,1000,1538.6,0,618455,FEMALE,MD,other-service,wife,0,-54700,01-11-2015,Single Vehicle Collision,Side Collision,Minor Damage,Fire,SC,Northbend,2668 Cherokee St,12,1,?,0,0,?,60600,6060,12120,42420,Ford,Fusion,2004,N
+150,31,651948,9/28/1994,IN,500/1000,1000,1354.5,0,456602,MALE,Masters,machine-op-inspct,husband,52800,0,01-02-2015,Multi-vehicle Collision,Front Collision,Major Damage,Ambulance,NY,Arlington,6838 Flute Lane,6,3,?,0,3,YES,64800,6480,12960,45360,Suburu,Forrestor,2000,Y
+4,34,424358,5/24/2003,OH,500/1000,500,1282.93,0,616126,FEMALE,College,exec-managerial,other-relative,0,0,02-12-2015,Multi-vehicle Collision,Side Collision,Major Damage,Police,WV,Northbrook,6583 MLK Ridge,0,4,?,0,0,?,66880,6080,12160,48640,Chevrolet,Silverado,1996,Y
+210,35,131478,12/25/1991,IL,500/1000,1000,1346.27,0,468508,MALE,Masters,farming-fishing,not-in-family,44900,-91400,01-03-2015,Single Vehicle Collision,Front Collision,Total Loss,Ambulance,WV,Arlington,6492 4th Lane,11,1,NO,0,2,?,58200,5820,5820,46560,BMW,X5,2013,N
+91,31,268833,9/18/1999,IN,100/300,1000,1338.4,4000000,431937,FEMALE,High School,priv-house-serv,own-child,63600,0,2/25/2015,Single Vehicle Collision,Side Collision,Minor Damage,Police,NC,Hillsdale,7299 Apache St,19,1,?,1,0,NO,60570,6730,6730,47110,Nissan,Maxima,2011,N
+167,36,287489,02-03-1994,IL,100/300,1000,949.44,0,448603,FEMALE,Masters,exec-managerial,other-relative,0,-38400,1/19/2015,Multi-vehicle Collision,Rear Collision,Major Damage,Ambulance,NC,Springfield,2756 Britain Hwy,22,3,?,0,0,NO,69680,8710,8710,52260,Mercedes,ML350,2008,Y
+467,58,808153,1/18/2003,IN,500/1000,2000,977.4,0,444500,MALE,Masters,transport-moving,own-child,82200,0,01-03-2015,Single Vehicle Collision,Front Collision,Total Loss,Fire,NY,Columbus,9360 3rd Drive,2,1,YES,2,3,NO,55700,5570,11140,38990,Nissan,Maxima,2014,N
+264,47,687639,03-07-2005,IN,250/500,2000,1181.46,10000000,601117,FEMALE,JD,transport-moving,other-relative,0,-67400,02-12-2015,Multi-vehicle Collision,Front Collision,Total Loss,Ambulance,OH,Arlington,1655 Francis Hwy,16,4,YES,1,2,YES,62370,5670,5670,51030,Dodge,Neon,2001,N
+270,45,497347,8/23/2003,OH,500/1000,500,1187.53,0,615383,FEMALE,PhD,priv-house-serv,not-in-family,83200,-53300,2/24/2015,Multi-vehicle Collision,Side Collision,Total Loss,Other,VA,Columbus,9720 Lincoln Hwy,23,3,?,0,0,YES,54340,9880,0,44460,Saab,92x,2005,N
+310,48,439660,07-11-2002,OH,100/300,1000,845.16,0,434342,FEMALE,Masters,priv-house-serv,other-relative,0,0,2/25/2015,Single Vehicle Collision,Front Collision,Major Damage,Police,NC,Northbend,7066 Texas Ave,21,1,YES,1,0,NO,55170,6130,6130,42910,Audi,A5,2005,Y
+143,34,847123,3/19/2014,IL,100/300,500,1442.27,0,435100,MALE,College,priv-house-serv,wife,67900,0,2/17/2015,Single Vehicle Collision,Front Collision,Minor Damage,Other,NY,Columbus,9728 Britain Hwy,10,1,?,2,3,YES,58500,11700,5850,40950,Dodge,RAM,1999,N
+146,32,172307,12-06-1993,OH,100/300,2000,1276.43,0,431278,MALE,Associate,priv-house-serv,own-child,0,0,02-09-2015,Single Vehicle Collision,Rear Collision,Major Damage,Fire,NC,Riverwood,4486 Cherokee Ridge,12,1,?,0,3,?,59940,6660,6660,46620,Honda,CRV,1995,N
+102,28,810189,8/29/1999,OH,250/500,500,1075.41,0,445648,MALE,MD,machine-op-inspct,wife,55200,0,2/15/2015,Single Vehicle Collision,Side Collision,Total Loss,Police,PA,Northbend,8021 Flute Ave,6,1,NO,1,0,NO,73400,7340,7340,58720,Dodge,Neon,1996,N
+61,23,432068,03-09-2007,IL,100/300,500,1111.72,0,448857,MALE,JD,exec-managerial,other-relative,54600,0,2/25/2015,Single Vehicle Collision,Side Collision,Major Damage,Fire,PA,Riverwood,2774 Apache Drive,6,1,?,1,2,?,41850,4650,4650,32550,Suburu,Legacy,1997,N
+255,44,903203,01-03-2004,OH,500/1000,2000,814.96,6000000,435267,FEMALE,PhD,priv-house-serv,not-in-family,68500,0,02-05-2015,Parked Car,?,Trivial Damage,Police,NC,Hillsdale,2787 MLK St,7,1,?,2,2,NO,6400,640,1280,4480,Mercedes,ML350,2005,Y
+211,40,253085,4/25/1991,IL,500/1000,1000,1575.86,0,461275,FEMALE,PhD,other-service,own-child,0,0,01-12-2015,Vehicle Theft,?,Trivial Damage,Police,WV,Northbrook,9847 Elm St,3,1,NO,1,1,NO,3190,580,290,2320,Audi,A5,2004,N
+61,29,180720,3/14/1995,IN,250/500,1000,1115.27,0,613816,MALE,JD,handlers-cleaners,unmarried,0,-66000,01-01-2015,Parked Car,?,Trivial Damage,None,VA,Hillsdale,4629 Elm Ridge,10,1,YES,2,1,YES,5900,590,590,4720,Nissan,Pathfinder,2010,N
+108,31,492224,12-09-2005,IN,500/1000,2000,1175.7,0,608767,MALE,Masters,protective-serv,not-in-family,0,0,2/19/2015,Single Vehicle Collision,Rear Collision,Total Loss,Fire,NY,Columbus,5585 Washington Drive,14,1,NO,0,2,NO,57330,6370,6370,44590,Dodge,Neon,2006,N
+303,50,411477,12/25/2001,OH,100/300,500,793.15,0,620869,MALE,MD,tech-support,own-child,54600,-45500,1/14/2015,Multi-vehicle Collision,Front Collision,Total Loss,Other,WV,Hillsdale,3925 Sky St,17,3,NO,0,3,NO,81960,13660,13660,54640,Dodge,Neon,2008,N
+152,33,107181,11/14/1999,IN,250/500,500,942.51,0,478981,FEMALE,PhD,transport-moving,wife,0,0,1/30/2015,Single Vehicle Collision,Side Collision,Major Damage,Fire,SC,Hillsdale,3903 Oak Ave,16,1,YES,0,0,?,70400,6400,19200,44800,Suburu,Legacy,2001,Y
+120,34,312940,10/27/2001,IN,500/1000,1000,1056.71,0,464630,FEMALE,JD,protective-serv,not-in-family,77900,0,1/20/2015,Parked Car,?,Minor Damage,None,VA,Columbus,3805 Lincoln Hwy,3,1,NO,2,1,?,3770,580,580,2610,Jeep,Grand Cherokee,2002,N
+144,36,855186,10/31/1993,IN,500/1000,2000,1255.68,6000000,466303,FEMALE,Associate,sales,other-relative,23600,-15600,2/18/2015,Parked Car,?,Minor Damage,None,NC,Arlington,4055 2nd Drive,7,1,NO,0,0,?,7400,740,1480,5180,Dodge,Neon,2014,N
+414,52,373935,2/13/2003,IN,500/1000,500,1335.13,0,452647,FEMALE,High School,farming-fishing,unmarried,44000,-71000,01-07-2015,Single Vehicle Collision,Rear Collision,Total Loss,Police,SC,Northbend,3707 Oak Ridge,13,1,YES,1,1,?,54810,6090,6090,42630,Chevrolet,Silverado,1999,Y
+163,37,812989,03-06-2004,IN,250/500,500,1178.95,6000000,441370,FEMALE,JD,priv-house-serv,own-child,0,-67300,1/16/2015,Single Vehicle Collision,Rear Collision,Total Loss,Fire,NY,Springfield,7327 Lincoln Drive,20,1,YES,2,3,YES,49400,4940,9880,34580,Jeep,Wrangler,2005,N
+352,53,993840,07-12-2013,IL,250/500,500,1793.16,0,619166,MALE,Associate,tech-support,wife,0,0,1/15/2015,Single Vehicle Collision,Front Collision,Minor Damage,Fire,NC,Riverwood,9369 Flute Hwy,23,1,YES,2,2,NO,68750,12500,6250,50000,Chevrolet,Malibu,2009,N
+27,32,327856,8/27/2014,OH,100/300,500,1008.38,0,472803,FEMALE,PhD,adm-clerical,other-relative,37900,0,02-01-2015,Single Vehicle Collision,Front Collision,Total Loss,Ambulance,SC,Arlington,4239 Weaver Ave,11,1,NO,1,0,?,61500,12300,6150,43050,Dodge,Neon,2013,N
+239,39,506333,6/22/1990,IL,100/300,500,1396.83,0,442308,FEMALE,Masters,other-service,husband,0,0,01-06-2015,Multi-vehicle Collision,Rear Collision,Major Damage,Ambulance,WV,Northbend,6044 Weaver Drive,0,4,?,0,3,NO,76890,6990,13980,55920,BMW,X6,2007,N
+33,32,263159,03-07-2008,OH,100/300,500,1402.78,5000000,469383,FEMALE,PhD,other-service,husband,70300,-50300,02-02-2015,Single Vehicle Collision,Rear Collision,Minor Damage,Ambulance,NY,Northbrook,8879 1st Drive,2,1,YES,0,1,?,56070,6230,12460,37380,Toyota,Camry,2012,N
+88,30,372912,08-05-1992,IN,100/300,1000,1437.88,0,614383,FEMALE,College,transport-moving,husband,42800,-51200,2/25/2015,Single Vehicle Collision,Side Collision,Total Loss,Fire,SC,Northbrook,9488 Best Drive,3,1,NO,2,0,YES,56000,14000,0,42000,Chevrolet,Malibu,2003,N
+101,33,552788,09-03-1991,IL,500/1000,1000,1313.64,0,438617,FEMALE,College,priv-house-serv,unmarried,12100,0,02-10-2015,Parked Car,?,Trivial Damage,None,NY,Hillsdale,7500 Texas Ridge,3,1,YES,1,0,NO,4290,780,390,3120,Audi,A3,1997,N
+20,37,722747,09-02-2011,IL,250/500,500,1482.14,0,613936,FEMALE,Associate,transport-moving,husband,33000,-43600,2/22/2015,Multi-vehicle Collision,Rear Collision,Total Loss,Other,NY,Arlington,2048 3rd Ridge,15,3,?,2,1,NO,60750,6750,6750,47250,Suburu,Forrestor,2003,N
+126,30,248467,10-06-2012,IL,250/500,2000,1171.75,0,472163,FEMALE,Associate,machine-op-inspct,not-in-family,46500,-42700,1/31/2015,Single Vehicle Collision,Side Collision,Minor Damage,Other,NY,Northbend,3419 Apache St,23,1,?,2,3,NO,48730,4430,4430,39870,Chevrolet,Malibu,2011,N
+264,43,955953,1/18/2014,IL,500/1000,2000,1353.33,0,447458,MALE,Associate,adm-clerical,not-in-family,0,-8500,02-12-2015,Multi-vehicle Collision,Front Collision,Minor Damage,Police,WV,Springfield,9875 MLK Ave,9,3,YES,2,0,NO,95150,17300,17300,60550,Ford,Escape,2007,N
+78,24,910622,3/22/1992,IN,100/300,500,1175.51,0,474792,MALE,Masters,craft-repair,husband,0,0,01-06-2015,Vehicle Theft,?,Minor Damage,Police,NY,Columbus,3553 Texas Ave,20,1,?,0,1,YES,7480,680,680,6120,Dodge,Neon,2003,N
+123,28,137675,12-03-2012,IL,100/300,2000,1836.02,0,470559,MALE,Masters,transport-moving,own-child,38000,-41200,01-01-2015,Single Vehicle Collision,Side Collision,Major Damage,Ambulance,NC,Riverwood,4335 1st St,5,1,?,2,1,YES,79800,13300,6650,59850,Volkswagen,Passat,2011,Y
+347,51,343421,10/18/1996,OH,500/1000,500,1480.79,9000000,432399,FEMALE,MD,priv-house-serv,unmarried,0,-12100,01-07-2015,Single Vehicle Collision,Side Collision,Total Loss,Other,NC,Hillsdale,9070 Tree Ave,15,1,YES,0,2,?,103560,8630,17260,77670,Jeep,Wrangler,1997,N
+163,38,413192,10-02-1997,IN,500/1000,2000,1453.92,0,607605,FEMALE,PhD,other-service,other-relative,51700,0,2/21/2015,Single Vehicle Collision,Side Collision,Minor Damage,Ambulance,NY,Hillsdale,3900 Texas St,13,1,YES,2,3,?,79500,15900,7950,55650,Accura,MDX,1995,N
+271,44,247801,3/18/2008,OH,250/500,500,1340.71,0,600153,FEMALE,High School,tech-support,other-relative,0,0,2/14/2015,Single Vehicle Collision,Rear Collision,Minor Damage,Other,SC,Riverwood,9657 5th Ave,16,1,NO,2,2,NO,76230,6930,13860,55440,Volkswagen,Passat,1997,Y
+410,54,171147,8/29/2010,IL,100/300,2000,714.03,0,465979,MALE,MD,protective-serv,own-child,0,-17000,2/16/2015,Single Vehicle Collision,Side Collision,Minor Damage,Ambulance,WV,Northbend,5765 Washington St,0,1,YES,0,2,NO,59520,9920,9920,39680,Honda,Accord,2001,N
+448,57,431283,3/31/2005,IL,100/300,2000,1376.16,0,466555,FEMALE,PhD,tech-support,own-child,38600,-50300,02-04-2015,Multi-vehicle Collision,Front Collision,Major Damage,Police,SC,Arlington,5997 Embaracadero Drive,10,3,NO,2,1,?,47760,5970,5970,35820,Suburu,Impreza,2013,Y
+218,41,461962,12/25/2013,IL,100/300,500,914.22,0,444155,MALE,JD,prof-specialty,wife,37900,-72900,1/22/2015,Multi-vehicle Collision,Side Collision,Total Loss,Police,NY,Springfield,1738 Solo Lane,14,3,NO,2,0,NO,84590,15380,7690,61520,Saab,93,2013,N
+43,38,149467,03-11-2014,OH,500/1000,1000,1601.47,0,465764,MALE,PhD,handlers-cleaners,other-relative,64400,0,2/15/2015,Multi-vehicle Collision,Front Collision,Total Loss,Other,SC,Columbus,2903 Weaver Drive,1,3,YES,2,2,?,61650,6850,6850,47950,Nissan,Ultima,2006,N
+33,33,758740,08-04-1997,IL,500/1000,1000,1096.79,6000000,446898,FEMALE,Associate,handlers-cleaners,unmarried,45500,-60600,01-07-2015,Single Vehicle Collision,Rear Collision,Major Damage,Police,VA,Springfield,8926 Texas Ridge,16,1,?,2,1,?,81400,8140,8140,65120,BMW,M5,1998,N
+126,34,628337,11/14/2007,IN,100/300,2000,1078.22,0,453274,FEMALE,Masters,transport-moving,wife,54500,0,2/23/2015,Multi-vehicle Collision,Side Collision,Major Damage,Fire,SC,Northbend,4231 3rd Ave,2,3,NO,0,1,YES,58410,10620,5310,42480,Chevrolet,Tahoe,2007,N
+411,56,574637,7/30/1992,IL,250/500,1000,1595.28,0,479320,FEMALE,College,protective-serv,other-relative,0,0,01-06-2015,Multi-vehicle Collision,Side Collision,Major Damage,Ambulance,VA,Springfield,8049 4th St,23,3,?,0,0,?,38610,3510,3510,31590,Volkswagen,Passat,2007,N
+225,37,373600,12-01-2000,OH,100/300,1000,1217.84,5000000,443462,FEMALE,High School,farming-fishing,not-in-family,49600,0,02-07-2015,Multi-vehicle Collision,Front Collision,Minor Damage,Fire,WV,Northbrook,6501 5th Drive,19,3,?,2,2,NO,57600,9600,9600,38400,Volkswagen,Passat,2015,N
+35,35,930032,09-10-2002,IL,100/300,2000,1117.42,0,446158,FEMALE,PhD,protective-serv,not-in-family,0,-51900,2/14/2015,Multi-vehicle Collision,Side Collision,Minor Damage,Fire,NC,Hillsdale,7909 Andromedia Hwy,23,3,NO,2,2,NO,53190,5910,11820,35460,Volkswagen,Jetta,1996,N
+460,57,396590,11-07-1997,OH,100/300,2000,1567.37,0,602514,FEMALE,JD,craft-repair,husband,62500,0,2/15/2015,Single Vehicle Collision,Front Collision,Major Damage,Other,NY,Riverwood,5865 Sky Lane,10,1,?,2,3,NO,58300,5830,11660,40810,Nissan,Maxima,2014,Y
+195,38,238412,5/18/1993,IL,500/1000,2000,1294.93,6000000,477356,MALE,MD,tech-support,unmarried,38000,-50300,2/14/2015,Multi-vehicle Collision,Front Collision,Minor Damage,Ambulance,WV,Springfield,1957 Washington Ave,12,3,YES,1,2,NO,64620,7180,0,57440,Dodge,Neon,2003,N
+360,51,484321,07-11-1996,IL,250/500,1000,1152.12,0,434669,MALE,PhD,armed-forces,not-in-family,0,-62400,02-05-2015,Multi-vehicle Collision,Side Collision,Total Loss,Ambulance,WV,Riverwood,7649 Texas St,15,3,NO,2,0,YES,90480,15080,15080,60320,BMW,X6,2000,N
+300,49,795847,12/17/1995,IL,100/300,1000,1441.21,0,609322,FEMALE,PhD,farming-fishing,wife,0,0,01-04-2015,Vehicle Theft,?,Trivial Damage,None,SC,Columbus,1992 Britain Drive,3,1,NO,1,0,NO,7080,1180,1180,4720,Nissan,Maxima,2001,N
+245,42,218456,7/16/2002,IL,500/1000,1000,1575.74,7000000,614265,MALE,JD,exec-managerial,other-relative,0,-68900,2/20/2015,Parked Car,?,Minor Damage,Police,PA,Springfield,9685 Sky Ridge,19,1,?,2,2,?,6490,590,1180,4720,Toyota,Camry,2011,Y
+146,36,792673,04-12-2013,OH,500/1000,2000,1233.96,0,606177,FEMALE,Masters,other-service,other-relative,34500,-60600,02-05-2015,Multi-vehicle Collision,Side Collision,Total Loss,Police,NC,Hillsdale,3457 Texas Lane,16,3,NO,1,1,NO,55900,5590,5590,44720,Nissan,Ultima,2015,N
+67,29,662256,11/13/1995,IL,250/500,1000,1861.43,0,461514,MALE,High School,adm-clerical,husband,60400,-67800,1/15/2015,Single Vehicle Collision,Rear Collision,Major Damage,Other,SC,Columbus,7693 Cherokee Lane,16,1,NO,0,3,YES,63800,6380,6380,51040,Saab,92x,1998,Y
+380,56,971338,11-04-2004,OH,100/300,1000,1570.86,0,454685,MALE,MD,farming-fishing,other-relative,66000,0,01-05-2015,Single Vehicle Collision,Side Collision,Total Loss,Police,VA,Northbend,3167 4th Ridge,10,1,?,0,1,YES,58160,7270,7270,43620,Saab,95,1996,Y
+389,53,714738,3/21/1998,IL,500/1000,2000,791.47,0,477260,MALE,Masters,armed-forces,unmarried,0,0,01-01-2015,Vehicle Theft,?,Minor Damage,Police,NC,Riverwood,1617 Rock Drive,6,1,NO,1,2,NO,6300,630,1260,4410,Mercedes,C300,2001,Y
+317,46,753844,7/22/1999,IN,250/500,1000,1012.78,0,469126,MALE,MD,sales,other-relative,43700,0,1/26/2015,Single Vehicle Collision,Front Collision,Major Damage,Fire,WV,Arlington,7877 3rd Ridge,18,1,NO,2,1,NO,104610,19020,19020,66570,Mercedes,ML350,1999,Y
+264,44,976645,2/28/2010,IL,100/300,500,1047.06,6000000,443402,MALE,College,exec-managerial,wife,0,0,2/13/2015,Multi-vehicle Collision,Rear Collision,Major Damage,Fire,SC,Springfield,9325 Lincoln Drive,20,3,NO,0,2,NO,69850,12700,6350,50800,Ford,Fusion,1999,N
+20,21,918037,1/30/2005,OH,250/500,1000,1390.29,0,479408,FEMALE,Masters,priv-house-serv,other-relative,0,-41200,1/14/2015,Single Vehicle Collision,Rear Collision,Minor Damage,Fire,PA,Northbrook,5855 Apache St,14,1,NO,0,0,?,62900,12580,6290,44030,Accura,MDX,2006,N
+116,30,996253,11/29/2001,IN,500/1000,500,951.46,0,467227,MALE,JD,handlers-cleaners,not-in-family,0,-35500,1/31/2015,Multi-vehicle Collision,Front Collision,Major Damage,Other,WV,Riverwood,1328 Texas Lane,8,3,NO,0,3,?,59670,6630,6630,46410,Volkswagen,Passat,2004,Y
+222,40,373731,12/24/2012,IL,100/300,1000,1226.78,0,468433,MALE,JD,armed-forces,unmarried,49600,-49200,1/22/2015,Multi-vehicle Collision,Rear Collision,Minor Damage,Other,NY,Springfield,4567 Pine Ave,17,2,YES,2,0,?,81500,16300,8150,57050,BMW,3 Series,2013,N
+439,56,836272,05-11-1997,OH,100/300,500,1280.9,0,604289,MALE,High School,armed-forces,own-child,48900,-40900,1/30/2015,Single Vehicle Collision,Rear Collision,Minor Damage,Ambulance,NC,Springfield,7575 Pine St,9,1,NO,2,0,?,50000,15000,5000,30000,Jeep,Wrangler,2009,N
+66,28,167231,1/26/1994,IN,100/300,2000,1472.77,0,471366,MALE,Associate,adm-clerical,husband,0,-31700,2/17/2015,Single Vehicle Collision,Front Collision,Total Loss,Other,NY,Springfield,2850 Washington St,0,1,?,2,1,?,48290,8780,8780,30730,Nissan,Maxima,1995,N
+128,29,743330,11-04-2010,OH,500/1000,1000,1878.44,0,450746,MALE,High School,other-service,husband,0,-76000,2/20/2015,Single Vehicle Collision,Rear Collision,Total Loss,Fire,VA,Riverwood,9169 Cherokee Hwy,2,1,NO,0,0,?,59070,5370,5370,48330,Chevrolet,Malibu,2003,N
+69,24,807369,6/19/1992,IN,500/1000,500,1418.5,0,614948,FEMALE,High School,armed-forces,other-relative,0,0,02-04-2015,Multi-vehicle Collision,Rear Collision,Minor Damage,Police,NY,Springfield,6443 Washington Ridge,23,3,?,0,0,NO,63300,12660,6330,44310,Dodge,RAM,2012,N
+294,46,735307,06-02-2010,IL,100/300,500,1532.8,0,473935,MALE,College,prof-specialty,own-child,0,0,2/23/2015,Single Vehicle Collision,Side Collision,Total Loss,Other,SC,Northbend,6751 5th Hwy,8,1,NO,0,3,YES,65780,11960,11960,41860,Mercedes,ML350,2013,N
+19,29,789208,10-12-2002,OH,250/500,500,1304.35,0,617267,MALE,JD,transport-moving,not-in-family,0,0,02-08-2015,Multi-vehicle Collision,Front Collision,Total Loss,Ambulance,NY,Columbus,2289 Weaver Ridge,6,3,NO,0,2,?,75400,11600,11600,52200,Dodge,Neon,2005,Y
+191,33,585324,2/25/2008,OH,500/1000,2000,1551.61,0,470670,MALE,High School,armed-forces,unmarried,45000,-30400,2/21/2015,Vehicle Theft,?,Minor Damage,None,WV,Arlington,8306 1st Drive,3,1,YES,1,1,NO,2250,250,250,1750,Toyota,Corolla,2005,N
+4,39,498759,09-05-1996,IL,100/300,1000,1326.98,6000000,450368,FEMALE,High School,machine-op-inspct,unmarried,64200,0,1/13/2015,Multi-vehicle Collision,Front Collision,Minor Damage,Ambulance,VA,Northbend,2603 Andromedia Hwy,14,3,YES,1,3,?,54120,4510,9020,40590,Jeep,Grand Cherokee,2007,N
+298,49,795004,3/16/1998,OH,250/500,500,862.92,0,448809,MALE,MD,machine-op-inspct,wife,0,-71700,1/17/2015,Multi-vehicle Collision,Side Collision,Major Damage,Other,NY,Northbrook,6479 Francis Ave,16,3,NO,0,2,NO,69480,11580,11580,46320,Saab,95,2007,N
+231,43,203250,4/22/2010,IN,100/300,2000,1331.69,0,469653,FEMALE,Masters,adm-clerical,not-in-family,0,0,2/18/2015,Single Vehicle Collision,Rear Collision,Minor Damage,Police,NY,Northbend,6428 Andromedia Lane,12,1,?,1,2,NO,66950,10300,10300,46350,Chevrolet,Malibu,2015,N
+338,47,430794,1/25/2008,OH,250/500,2000,1486.04,0,615688,FEMALE,Associate,armed-forces,own-child,0,-56200,1/14/2015,Multi-vehicle Collision,Rear Collision,Major Damage,Other,OH,Northbrook,9081 Cherokee Hwy,1,3,NO,2,3,?,64100,12820,6410,44870,Dodge,RAM,2014,Y
+261,46,156636,09-10-2000,IN,100/300,1000,870.55,0,465631,MALE,PhD,prof-specialty,unmarried,0,-49400,1/27/2015,Single Vehicle Collision,Rear Collision,Minor Damage,Other,SC,Springfield,1532 Washington St,19,1,?,0,3,?,80280,13380,13380,53520,Chevrolet,Tahoe,2013,N
+321,44,284143,4/23/2008,IL,500/1000,2000,1344.56,6000000,443344,MALE,Associate,machine-op-inspct,husband,0,-39100,02-12-2015,Vehicle Theft,?,Trivial Damage,Police,NY,Northbend,4625 MLK Drive,7,1,?,1,2,NO,4680,520,0,4160,Accura,MDX,1999,N
+0,32,740518,2/18/2011,OH,500/1000,1000,1377.04,0,441363,MALE,College,tech-support,wife,61400,-41100,1/17/2015,Multi-vehicle Collision,Rear Collision,Minor Damage,Ambulance,NY,Springfield,1529 Elm Ridge,6,4,?,1,1,NO,39720,6620,6620,26480,Accura,MDX,2002,N
+405,58,445289,4/24/2012,IL,250/500,500,1237.88,0,462683,MALE,MD,exec-managerial,not-in-family,0,-46900,1/13/2015,Single Vehicle Collision,Front Collision,Major Damage,Police,NY,Arlington,2086 Francis Drive,11,1,?,0,0,?,63580,5780,5780,52020,Mercedes,ML350,1997,Y
+304,49,599262,9/25/2001,IN,100/300,1000,1525.86,0,463184,FEMALE,PhD,craft-repair,own-child,0,0,1/21/2015,Single Vehicle Collision,Side Collision,Minor Damage,Other,NC,Northbend,9066 Best Ridge,2,1,YES,1,1,YES,73370,13340,6670,53360,Saab,95,2013,N
+1,29,357949,5/24/2006,OH,500/1000,500,854.58,0,612826,FEMALE,JD,craft-repair,other-relative,52200,0,01-01-2015,Single Vehicle Collision,Side Collision,Minor Damage,Police,SC,Northbrook,7178 Best Drive,15,1,?,2,3,YES,86790,7890,23670,55230,Honda,CRV,2003,N
+26,39,493161,1/30/1992,IN,250/500,1000,770.76,0,433155,MALE,Masters,tech-support,husband,0,-53700,2/18/2015,Single Vehicle Collision,Side Collision,Major Damage,Police,WV,Columbus,9821 Francis Ave,0,1,NO,0,2,?,49800,9960,4980,34860,Mercedes,ML350,2015,N
+202,38,320251,1/24/2009,IL,100/300,2000,1132.74,0,616120,FEMALE,Associate,armed-forces,husband,0,-37500,02-04-2015,Single Vehicle Collision,Side Collision,Major Damage,Other,WV,Hillsdale,7061 Cherokee Drive,12,1,YES,1,1,NO,77440,7040,14080,56320,Nissan,Ultima,2005,N
+289,48,231127,8/29/1995,IL,500/1000,500,1173.37,8000000,461744,FEMALE,PhD,handlers-cleaners,own-child,0,-42700,01-09-2015,Single Vehicle Collision,Front Collision,Total Loss,Other,SC,Springfield,1325 1st Lane,1,1,?,1,0,?,42900,8580,0,34320,Accura,TL,1999,N
+61,26,766193,7/31/2011,OH,100/300,2000,1188.28,6000000,475916,FEMALE,JD,farming-fishing,wife,0,-53800,2/14/2015,Multi-vehicle Collision,Rear Collision,Major Damage,Fire,VA,Hillsdale,3769 Sky St,16,2,YES,1,0,NO,53820,11960,5980,35880,Ford,F150,2015,Y
+334,46,555374,01-05-2013,IL,100/300,1000,876.88,6000000,454434,MALE,MD,sales,other-relative,0,0,01-03-2015,Single Vehicle Collision,Rear Collision,Minor Damage,Police,WV,Hillsdale,8489 Pine Hwy,2,1,NO,2,1,NO,57330,12740,6370,38220,Jeep,Grand Cherokee,1998,N
+12,24,491484,11/18/1994,IL,500/1000,1000,1143.95,0,464353,FEMALE,PhD,tech-support,other-relative,51400,0,02-04-2015,Multi-vehicle Collision,Rear Collision,Minor Damage,Police,NY,Riverwood,6329 Apache Ave,13,3,NO,2,1,?,53370,5930,5930,41510,Nissan,Ultima,2011,N
+86,29,925128,8/30/2014,IL,100/300,2000,1409.06,0,610302,MALE,High School,prof-specialty,husband,74200,-68100,1/30/2015,Single Vehicle Collision,Front Collision,Minor Damage,Police,NY,Northbrook,9293 Pine Lane,0,1,NO,2,2,YES,62920,9680,14520,38720,Accura,MDX,2005,N
+83,24,265093,01-01-2006,IN,500/1000,1000,1070.63,0,462106,FEMALE,High School,machine-op-inspct,unmarried,0,0,2/20/2015,Multi-vehicle Collision,Front Collision,Total Loss,Fire,NY,Arlington,9224 Sky Drive,0,3,?,0,1,NO,61600,6160,12320,43120,Honda,CRV,2003,N
+126,30,267808,09-10-1998,IL,500/1000,2000,916.13,0,431389,MALE,College,sales,unmarried,55300,-58400,01-07-2015,Multi-vehicle Collision,Rear Collision,Total Loss,Police,NY,Northbend,8862 Maple Ridge,16,3,YES,2,0,NO,74160,6180,12360,55620,Mercedes,E400,2002,N
+209,38,116735,1/28/2010,OH,250/500,500,1191.5,0,442866,MALE,High School,priv-house-serv,husband,38600,-52900,1/31/2015,Single Vehicle Collision,Rear Collision,Total Loss,Police,WV,Arlington,3492 Flute Lane,8,1,NO,2,0,?,80100,8900,8900,62300,Audi,A3,2015,N
+283,48,963680,01-04-2003,OH,500/1000,1000,1474.66,0,446755,FEMALE,JD,sales,husband,0,-46200,2/17/2015,Parked Car,?,Trivial Damage,Police,NY,Hillsdale,6484 Tree Drive,9,1,?,2,3,NO,6560,820,820,4920,Volkswagen,Jetta,2003,N
+194,34,445694,5/24/2004,IL,250/500,1000,1193.45,0,464743,MALE,JD,other-service,not-in-family,0,0,1/24/2015,Single Vehicle Collision,Rear Collision,Total Loss,Ambulance,WV,Northbend,4554 Sky Ave,11,1,?,2,1,YES,58800,11760,5880,41160,Nissan,Pathfinder,1997,N
+184,38,215534,09-12-1994,IL,250/500,1000,1437.53,0,437889,FEMALE,College,transport-moving,not-in-family,0,0,02-02-2015,Multi-vehicle Collision,Side Collision,Minor Damage,Ambulance,PA,Northbrook,5201 Texas Hwy,6,3,?,0,2,NO,53730,11940,5970,35820,Dodge,RAM,2013,Y
+479,60,232854,07-07-1997,IL,100/300,2000,1304.83,0,473638,FEMALE,College,other-service,husband,0,0,01-09-2015,Single Vehicle Collision,Rear Collision,Total Loss,Ambulance,NY,Arlington,3982 Weaver Lane,18,1,NO,0,0,NO,60600,5050,10100,45450,Honda,Civic,2001,N
+284,48,168260,03-01-1991,OH,250/500,1000,1168.8,0,444232,FEMALE,JD,tech-support,other-relative,0,-42400,2/28/2015,Single Vehicle Collision,Side Collision,Total Loss,Other,NY,Northbrook,3660 Andromedia Hwy,11,1,?,0,3,YES,35750,6500,3250,26000,Mercedes,E400,2001,N
+65,27,538955,9/29/2001,IN,100/300,1000,1164.97,0,477695,FEMALE,College,adm-clerical,wife,43000,-42500,1/17/2015,Single Vehicle Collision,Front Collision,Total Loss,Ambulance,WV,Arlington,7135 Flute Lane,17,1,?,1,2,YES,42840,3570,7140,32130,Chevrolet,Silverado,2004,N
+222,39,243226,01-10-2012,IL,250/500,1000,1232.72,0,458237,MALE,High School,armed-forces,own-child,87800,-51200,02-09-2015,Multi-vehicle Collision,Front Collision,Major Damage,Fire,SC,Springfield,4414 Solo Drive,21,3,?,1,0,NO,87960,14660,14660,58640,Jeep,Wrangler,1999,Y
+196,41,246435,07-05-2001,IL,250/500,2000,1800.76,0,441499,MALE,JD,protective-serv,other-relative,0,-78600,1/14/2015,Multi-vehicle Collision,Rear Collision,Minor Damage,Ambulance,SC,Hillsdale,2920 5th Ave,0,3,NO,1,0,NO,47800,4780,4780,38240,Jeep,Grand Cherokee,2009,N
+253,43,582480,08-07-1991,IL,500/1000,500,1187.01,7000000,613436,FEMALE,Associate,tech-support,unmarried,46300,-33000,02-02-2015,Vehicle Theft,?,Trivial Damage,Police,NY,Northbrook,2986 MLK Drive,9,1,NO,0,1,?,3840,640,640,2560,Chevrolet,Tahoe,2014,N
+280,43,345539,7/24/2012,IN,100/300,1000,1559.34,0,448912,MALE,JD,transport-moving,own-child,0,-51600,2/17/2015,Single Vehicle Collision,Front Collision,Total Loss,Fire,NY,Riverwood,1580 Maple Lane,1,1,NO,0,2,?,77000,14000,7000,56000,Accura,RSX,2004,N
+5,26,924318,7/27/2014,IL,250/500,2000,1137.02,0,468872,FEMALE,PhD,farming-fishing,not-in-family,31500,0,1/25/2015,Single Vehicle Collision,Rear Collision,Total Loss,Ambulance,WV,Springfield,3706 Texas Hwy,22,1,YES,1,3,?,88110,16020,16020,56070,Audi,A5,2003,N
+220,42,726880,08-08-1994,IN,100/300,1000,1281.72,0,619811,MALE,College,farming-fishing,other-relative,33500,-49500,2/13/2015,Multi-vehicle Collision,Rear Collision,Minor Damage,Fire,SC,Northbend,9109 Britain Drive,20,4,NO,0,2,YES,47740,4340,4340,39060,Honda,Civic,2005,N
+85,30,190588,12-09-2001,OH,100/300,1000,796.35,0,614166,FEMALE,MD,craft-repair,own-child,72400,-77000,2/20/2015,Multi-vehicle Collision,Rear Collision,Total Loss,Fire,SC,Northbend,2290 4th Ave,9,3,YES,2,1,YES,58960,5360,10720,42880,Ford,F150,2004,N
+266,46,246705,3/14/1990,OH,250/500,500,1270.02,0,456600,FEMALE,Associate,tech-support,own-child,0,-45800,01-08-2015,Parked Car,?,Minor Damage,Police,NC,Northbrook,4232 Britain Ridge,5,1,NO,1,2,?,2160,480,240,1440,Toyota,Corolla,2004,N
+41,26,619589,3/28/2006,IL,100/300,1000,1383.13,0,618405,FEMALE,JD,prof-specialty,own-child,46700,0,2/28/2015,Vehicle Theft,?,Trivial Damage,Police,SC,Riverwood,6677 Andromedia Drive,12,1,YES,1,1,?,6890,530,1060,5300,Jeep,Grand Cherokee,1997,N
+316,45,164988,12/23/2013,IL,100/300,2000,1290.74,5000000,430832,FEMALE,High School,prof-specialty,husband,58300,0,02-12-2015,Multi-vehicle Collision,Side Collision,Major Damage,Ambulance,VA,Springfield,5868 Sky Hwy,6,3,NO,2,0,YES,78870,7170,14340,57360,Suburu,Legacy,2013,N
+285,47,729534,9/30/1991,IN,100/300,1000,1216.68,0,610989,FEMALE,Masters,sales,other-relative,55100,0,01-06-2015,Vehicle Theft,?,Trivial Damage,Police,SC,Columbus,3053 Lincoln Drive,8,1,NO,1,1,NO,2700,300,300,2100,Ford,F150,2013,N
+379,54,505014,12/27/2001,IL,100/300,500,1251.16,0,447750,FEMALE,Associate,machine-op-inspct,not-in-family,41400,0,2/15/2015,Single Vehicle Collision,Front Collision,Total Loss,Ambulance,WV,Riverwood,7041 Tree Ridge,14,1,?,0,1,NO,75960,6330,6330,63300,Jeep,Grand Cherokee,2010,N
+15,34,920826,04-07-2005,IN,250/500,2000,1586.41,0,608708,FEMALE,High School,sales,other-relative,33500,-58900,1/20/2015,Single Vehicle Collision,Front Collision,Major Damage,Police,WV,Northbrook,7223 Embaracadero St,10,1,YES,1,3,?,75570,6870,13740,54960,BMW,X5,2010,Y
+354,48,534982,04-08-2003,IL,500/1000,2000,1526.11,5000000,469650,FEMALE,Masters,sales,unmarried,0,0,01-03-2015,Single Vehicle Collision,Front Collision,Minor Damage,Police,SC,Columbus,8081 Flute Ridge,12,1,?,2,3,YES,90240,15040,15040,60160,Chevrolet,Malibu,1995,N
+342,53,110408,11/14/2005,IN,100/300,1000,1028.44,0,602304,FEMALE,College,prof-specialty,not-in-family,0,0,1/26/2015,Single Vehicle Collision,Front Collision,Major Damage,Ambulance,SC,Springfield,8618 Texas Lane,12,1,?,0,0,NO,80960,14720,7360,58880,Accura,MDX,2000,N
+169,38,283052,01-07-2005,IL,100/300,1000,1555.94,0,459878,MALE,PhD,craft-repair,own-child,23300,0,1/25/2015,Multi-vehicle Collision,Front Collision,Total Loss,Other,VA,Riverwood,3508 Washington St,12,3,NO,1,3,YES,79080,6590,13180,59310,Mercedes,C300,2012,N
+339,49,840806,2/14/1994,IN,500/1000,2000,1570.77,0,441142,MALE,JD,adm-clerical,not-in-family,98800,-65300,1/18/2015,Vehicle Theft,?,Minor Damage,None,SC,Columbus,2193 4th Ridge,13,1,NO,0,3,NO,6820,1240,620,4960,Mercedes,ML350,2009,N
+259,42,382394,1/23/1996,OH,100/300,2000,1170.53,0,465667,FEMALE,PhD,armed-forces,wife,65000,-49200,01-12-2015,Multi-vehicle Collision,Rear Collision,Total Loss,Fire,WV,Northbend,8897 Sky St,17,3,NO,1,2,YES,62590,5690,11380,45520,Nissan,Pathfinder,2006,N
+65,23,876699,12-12-1999,OH,250/500,1000,1099.95,0,473109,FEMALE,College,sales,wife,0,-71900,1/15/2015,Single Vehicle Collision,Side Collision,Major Damage,Other,NY,Arlington,9611 Pine Ridge,14,1,NO,1,0,YES,52400,6550,6550,39300,Accura,MDX,2005,Y
+254,46,871432,7/15/2004,IL,250/500,2000,1472.43,0,619794,MALE,MD,tech-support,husband,0,-90600,01-10-2015,Multi-vehicle Collision,Front Collision,Major Damage,Ambulance,WV,Arlington,7825 1st Ridge,3,3,?,1,3,YES,63580,5780,11560,46240,Volkswagen,Jetta,2004,N
+440,55,379882,11-07-2012,IL,250/500,500,1275.62,0,602258,FEMALE,Associate,priv-house-serv,other-relative,0,-56200,1/23/2015,Multi-vehicle Collision,Side Collision,Minor Damage,Police,NY,Riverwood,3039 Oak Hwy,18,3,YES,2,1,NO,61400,6140,6140,49120,Nissan,Ultima,1995,N
+478,63,852002,6/29/2009,IL,250/500,1000,1292.3,0,479724,MALE,High School,adm-clerical,own-child,47600,0,2/21/2015,Parked Car,?,Minor Damage,None,VA,Northbend,8204 Pine Lane,5,1,YES,1,3,NO,4700,940,470,3290,Dodge,Neon,2007,Y
+230,44,372891,6/26/2000,IN,250/500,2000,1009.37,0,442210,FEMALE,College,prof-specialty,other-relative,45400,-39400,2/17/2015,Single Vehicle Collision,Front Collision,Total Loss,Fire,SC,Riverwood,9787 Andromedia Ave,19,1,NO,0,2,YES,74140,13480,13480,47180,BMW,X5,2015,N
+138,30,689034,01-09-2002,OH,500/1000,500,1093.07,4000000,463291,FEMALE,PhD,other-service,wife,27700,-72400,01-06-2015,Single Vehicle Collision,Front Collision,Major Damage,Other,VA,Hillsdale,9633 Rock Hwy,0,1,?,2,2,NO,83160,6930,13860,62370,Volkswagen,Jetta,2011,N
+239,41,743092,11-11-2013,OH,250/500,1000,1325.44,7000000,474898,FEMALE,JD,farming-fishing,other-relative,51400,-6300,2/18/2015,Parked Car,?,Trivial Damage,Police,NC,Arlington,6303 1st Drive,22,1,?,0,2,YES,10790,1660,830,8300,Mercedes,E400,2013,N
+93,31,599174,1/14/2008,IL,100/300,2000,1017.18,0,431354,FEMALE,MD,prof-specialty,husband,0,0,2/17/2015,Multi-vehicle Collision,Rear Collision,Major Damage,Police,NC,Arlington,2014 Rock Ave,21,3,YES,1,3,NO,48070,8740,8740,30590,Saab,92x,2014,N
+37,25,421092,03-04-2003,OH,100/300,1000,1221.17,0,617460,FEMALE,Masters,protective-serv,not-in-family,49300,0,1/24/2015,Multi-vehicle Collision,Rear Collision,Minor Damage,Ambulance,SC,Northbrook,8983 Tree St,4,3,YES,0,0,YES,51030,5670,11340,34020,Suburu,Impreza,1996,N
+254,40,349658,06-07-1994,IN,100/300,500,1927.87,0,609317,MALE,MD,prof-specialty,husband,0,0,1/21/2015,Single Vehicle Collision,Front Collision,Minor Damage,Fire,VA,Arlington,6260 5th Lane,10,1,YES,0,1,?,43280,0,5410,37870,Honda,Civic,1996,Y
+131,29,811042,07-04-2013,IN,250/500,1000,978.27,0,479821,FEMALE,Associate,sales,own-child,65700,0,02-03-2015,Single Vehicle Collision,Front Collision,Major Damage,Fire,SC,Hillsdale,2725 Britain Ridge,5,1,?,1,3,NO,76400,15280,7640,53480,Suburu,Forrestor,2003,N
+230,43,505316,6/30/2002,IN,100/300,2000,1221.14,0,473394,MALE,MD,prof-specialty,wife,48100,0,01-07-2015,Single Vehicle Collision,Side Collision,Total Loss,Ambulance,VA,Hillsdale,3089 Oak Ridge,13,1,?,0,2,?,75460,13720,13720,48020,Audi,A5,2002,N
+313,50,116645,6/30/2004,OH,100/300,2000,1255.62,0,603882,MALE,MD,armed-forces,unmarried,0,0,02-02-2015,Multi-vehicle Collision,Side Collision,Major Damage,Other,OH,Northbrook,6206 3rd Ridge,18,3,YES,2,1,YES,69000,13800,6900,48300,Ford,F150,1995,Y
+210,38,950880,12/19/1998,IN,250/500,500,999.52,0,615229,MALE,JD,tech-support,other-relative,0,0,1/13/2015,Vehicle Theft,?,Minor Damage,Police,VA,Springfield,7240 5th Ridge,6,1,?,1,2,NO,8640,1440,720,6480,Accura,TL,2008,N
+101,29,788502,8/31/2014,OH,250/500,500,1380.89,0,620197,MALE,PhD,armed-forces,own-child,30000,-53000,2/28/2015,Multi-vehicle Collision,Rear Collision,Minor Damage,Ambulance,SC,Arlington,8100 3rd Ave,0,3,?,2,1,?,67210,12220,12220,42770,BMW,X6,1996,N
+153,37,627486,11-10-2005,IN,500/1000,500,1010.77,0,438215,MALE,High School,transport-moving,unmarried,52300,-55600,1/16/2015,Multi-vehicle Collision,Side Collision,Total Loss,Ambulance,NC,Arlington,3282 4th Lane,5,3,?,0,3,NO,42500,4250,4250,34000,Volkswagen,Jetta,1999,N
+337,53,498842,05-04-2000,OH,100/300,500,1205.86,0,444583,MALE,Associate,armed-forces,wife,0,-34600,02-01-2015,Single Vehicle Collision,Rear Collision,Minor Damage,Fire,SC,Arlington,3227 Maple Ave,8,1,YES,0,1,NO,86400,14400,7200,64800,Accura,RSX,2001,N
+360,51,550294,11/26/2001,IL,500/1000,1000,1526.61,0,471866,MALE,Masters,handlers-cleaners,not-in-family,0,-32900,1/30/2015,Vehicle Theft,?,Minor Damage,Police,SC,Hillsdale,4264 Lincoln Ridge,5,1,YES,2,2,?,4620,840,840,2940,Dodge,RAM,2009,Y
+428,53,328387,05-06-2014,IL,100/300,1000,1496.44,0,616884,FEMALE,High School,tech-support,unmarried,0,0,2/16/2015,Parked Car,?,Trivial Damage,Police,NC,Springfield,2215 Best Ave,9,1,YES,2,2,NO,6930,630,1260,5040,Honda,CRV,2013,N
+204,40,540152,1/27/1991,IL,100/300,500,1256.2,0,448310,FEMALE,JD,sales,not-in-family,0,0,01-07-2015,Multi-vehicle Collision,Side Collision,Minor Damage,Other,SC,Northbend,5363 Weaver Lane,10,3,YES,1,2,YES,41700,8340,8340,25020,Saab,95,2013,N
+364,51,385932,4/28/1992,IL,100/300,500,1268.35,0,478902,MALE,Masters,transport-moving,wife,0,0,01-10-2015,Single Vehicle Collision,Rear Collision,Major Damage,Other,NY,Northbrook,2397 Cherokee Ave,16,1,YES,2,1,NO,77330,14060,14060,49210,Volkswagen,Jetta,2014,Y
+185,35,618682,03-04-2000,IN,500/1000,2000,1421.59,0,442695,MALE,College,other-service,own-child,0,0,1/31/2015,Vehicle Theft,?,Trivial Damage,Police,WV,Arlington,9794 Embaracadero St,8,1,?,2,3,YES,4950,900,450,3600,Ford,F150,2011,N
+63,26,550930,10-12-1995,IL,500/1000,500,1500.04,6000000,613826,MALE,PhD,craft-repair,own-child,0,-36500,2/13/2015,Vehicle Theft,?,Minor Damage,Police,NC,Northbrook,1810 Elm Hwy,5,1,NO,0,2,YES,5160,860,860,3440,Accura,TL,2004,N
+210,35,998192,4/25/2014,IL,100/300,500,1433.24,0,476203,FEMALE,College,exec-managerial,not-in-family,0,-19500,2/22/2015,Multi-vehicle Collision,Side Collision,Total Loss,Fire,WV,Riverwood,9603 Texas Lane,11,3,NO,2,1,?,24570,2730,2730,19110,Saab,95,2006,Y
+194,38,663938,1/26/2011,IN,100/300,2000,1231.25,0,604333,FEMALE,PhD,craft-repair,not-in-family,46500,0,01-08-2015,Multi-vehicle Collision,Rear Collision,Minor Damage,Ambulance,WV,Arlington,5650 Sky Drive,15,3,?,1,0,?,53680,4880,9760,39040,Toyota,Camry,2011,N
+294,49,756870,1/26/1996,IN,500/1000,500,1135.43,0,442604,MALE,Masters,farming-fishing,own-child,22700,0,02-04-2015,Multi-vehicle Collision,Side Collision,Total Loss,Police,WV,Columbus,9633 MLK Lane,23,3,YES,1,1,YES,42900,3900,3900,35100,Chevrolet,Malibu,2010,N
+272,41,337158,04-08-1991,OH,250/500,2000,945.73,5000000,435663,MALE,MD,protective-serv,wife,38600,-42800,02-04-2015,Single Vehicle Collision,Front Collision,Minor Damage,Fire,NY,Arlington,4981 Flute Hwy,23,1,NO,0,0,NO,84100,16820,8410,58870,Ford,Escape,2009,Y
+27,27,919875,6/29/2002,IN,100/300,2000,1118.76,0,470866,FEMALE,College,adm-clerical,own-child,0,-55800,2/26/2015,Single Vehicle Collision,Front Collision,Total Loss,Fire,NY,Northbrook,9078 Francis Ridge,23,1,?,1,3,?,61560,6840,6840,47880,Ford,Fusion,2008,N
+251,39,315631,04-09-1999,IN,500/1000,2000,1231.98,0,612908,FEMALE,Associate,other-service,not-in-family,0,-31700,01-08-2015,Single Vehicle Collision,Rear Collision,Minor Damage,Police,NY,Hillsdale,1381 Francis Ave,10,1,YES,0,0,?,44240,5530,5530,33180,Dodge,RAM,1997,N
+180,33,113464,4/19/2009,IN,500/1000,2000,1005.47,0,441871,FEMALE,JD,protective-serv,own-child,58100,-49000,2/15/2015,Multi-vehicle Collision,Rear Collision,Minor Damage,Ambulance,VA,Columbus,6435 Texas Ave,12,4,?,2,3,YES,57700,11540,5770,40390,Jeep,Grand Cherokee,2002,N
+392,50,556415,8/22/1991,OH,100/300,2000,1108.97,0,431496,FEMALE,PhD,exec-managerial,not-in-family,68400,-66800,1/14/2015,Single Vehicle Collision,Side Collision,Minor Damage,Other,WV,Springfield,1248 MLK Ridge,4,1,NO,2,2,YES,108030,16620,16620,74790,Saab,92x,2002,N
+143,30,250249,11/28/1991,IN,100/300,500,1392.39,5000000,436499,FEMALE,High School,exec-managerial,unmarried,0,-65700,01-12-2015,Single Vehicle Collision,Rear Collision,Minor Damage,Fire,SC,Riverwood,3323 1st Lane,16,1,NO,2,0,YES,54300,10860,5430,38010,Toyota,Highlander,2010,N
+371,54,403776,4/27/2012,IN,100/300,2000,1317.97,0,469853,MALE,High School,craft-repair,wife,34700,-81000,1/18/2015,Multi-vehicle Collision,Front Collision,Major Damage,Ambulance,SC,Columbus,6971 Best Ridge,18,3,?,1,2,?,32280,5380,5380,21520,Ford,Fusion,2010,Y
+292,42,396002,03-04-2007,IN,250/500,1000,1588.22,0,605369,MALE,JD,machine-op-inspct,other-relative,0,-53800,1/15/2015,Multi-vehicle Collision,Rear Collision,Total Loss,Other,WV,Riverwood,7488 Lincoln Lane,15,3,YES,1,1,NO,84600,16920,8460,59220,Chevrolet,Malibu,2007,N
+165,35,976908,12/31/2012,IL,250/500,500,900.02,6000000,448466,MALE,College,craft-repair,own-child,0,-49900,2/24/2015,Single Vehicle Collision,Front Collision,Total Loss,Other,SC,Springfield,9007 Francis Hwy,8,1,NO,1,3,YES,69700,6970,6970,55760,BMW,3 Series,2008,N
+158,33,509489,12/21/2013,OH,100/300,1000,1744.64,3000000,432786,MALE,JD,prof-specialty,unmarried,0,0,02-07-2015,Multi-vehicle Collision,Rear Collision,Total Loss,Ambulance,WV,Springfield,1491 Francis Ridge,4,3,NO,0,1,NO,36400,3640,7280,25480,Volkswagen,Jetta,1998,N
+241,39,485295,4/28/2005,OH,250/500,1000,1260.56,0,473591,FEMALE,JD,adm-clerical,own-child,0,-54900,2/22/2015,Multi-vehicle Collision,Side Collision,Minor Damage,Police,SC,Northbrook,3659 Oak Lane,20,3,NO,0,2,YES,37520,4690,4690,28140,Jeep,Wrangler,2010,N
+103,33,361829,9/17/1994,OH,500/1000,2000,1021.14,0,618418,FEMALE,Masters,other-service,wife,69500,-47700,1/19/2015,Multi-vehicle Collision,Side Collision,Major Damage,Ambulance,NY,Northbend,4176 Britain Hwy,1,3,NO,2,3,?,79090,14380,14380,50330,Dodge,RAM,2014,N
+402,54,603632,8/16/2003,OH,250/500,2000,1285.09,0,444558,MALE,JD,farming-fishing,not-in-family,48000,-79600,2/28/2015,Single Vehicle Collision,Rear Collision,Major Damage,Other,NY,Springfield,5189 Francis Drive,19,1,NO,0,2,YES,67770,7530,15060,45180,Mercedes,ML350,2013,Y
+102,32,783494,09-02-2014,OH,100/300,500,1537.07,3000000,457733,MALE,JD,tech-support,wife,0,0,02-04-2015,Single Vehicle Collision,Side Collision,Total Loss,Other,OH,Northbend,6515 Oak Lane,11,1,NO,1,0,NO,47400,9480,4740,33180,Chevrolet,Silverado,2004,Y
+182,40,439049,12-12-2011,IN,100/300,1000,1022.42,0,466161,MALE,PhD,other-service,husband,50000,-56900,2/17/2015,Single Vehicle Collision,Front Collision,Total Loss,Other,SC,Northbend,7168 Andromedia Ridge,13,1,YES,0,2,?,71100,7110,14220,49770,Audi,A3,2008,N
+282,46,502634,8/17/1991,OH,100/300,2000,1558.86,0,450800,MALE,MD,other-service,wife,51100,-75100,2/17/2015,Single Vehicle Collision,Front Collision,Minor Damage,Police,NY,Springfield,7954 Tree Ridge,2,1,?,2,2,NO,69400,13880,6940,48580,BMW,M5,2012,N
+222,39,378588,2/29/2004,OH,500/1000,500,1757.87,0,458993,MALE,High School,transport-moving,not-in-family,71400,0,1/17/2015,Multi-vehicle Collision,Rear Collision,Major Damage,Other,SC,Northbrook,1956 Apache St,9,3,YES,2,1,?,55000,5000,10000,40000,Saab,93,1996,Y
+415,52,794731,2/22/2015,IN,250/500,1000,973.5,0,468634,MALE,PhD,machine-op-inspct,not-in-family,50400,0,02-02-2015,Multi-vehicle Collision,Rear Collision,Total Loss,Police,WV,Arlington,9918 Andromedia Drive,15,2,YES,1,3,YES,51090,7860,7860,35370,Toyota,Highlander,2003,N
+51,34,641934,12/25/2013,OH,500/1000,500,1430.8,0,461264,MALE,PhD,machine-op-inspct,unmarried,0,0,02-12-2015,Single Vehicle Collision,Side Collision,Major Damage,Fire,NY,Springfield,5499 Flute Ridge,23,1,?,2,3,NO,64200,6420,19260,38520,Honda,Civic,2007,Y
+255,45,113516,10/13/1990,IL,500/1000,500,1192.27,0,600184,MALE,High School,sales,own-child,0,-40200,01-04-2015,Single Vehicle Collision,Front Collision,Total Loss,Other,NC,Riverwood,3311 2nd Drive,16,1,NO,2,0,YES,67320,12240,12240,42840,Ford,Fusion,2006,N
+143,31,425631,07-05-2014,IL,250/500,500,1163.83,0,604874,MALE,Associate,protective-serv,husband,37700,0,2/21/2015,Multi-vehicle Collision,Side Collision,Major Damage,Other,NC,Arlington,7609 Rock St,21,4,YES,2,0,?,76120,6920,13840,55360,Audi,A5,1999,N
+130,28,542245,11/25/1991,OH,500/1000,1000,1003.15,0,462377,FEMALE,JD,farming-fishing,other-relative,0,-38500,1/23/2015,Multi-vehicle Collision,Front Collision,Minor Damage,Ambulance,SC,Hillsdale,4652 Flute Drive,21,2,YES,2,1,NO,85020,13080,13080,58860,Ford,Fusion,2010,N
+242,41,512894,10-02-1990,OH,250/500,2000,1153.54,6000000,619657,MALE,Masters,protective-serv,unmarried,0,-57000,02-12-2015,Multi-vehicle Collision,Rear Collision,Minor Damage,Fire,NY,Northbrook,6853 Sky Hwy,3,3,NO,0,1,?,68090,12380,12380,43330,Toyota,Corolla,2009,N
+96,27,633090,2/17/2009,IL,100/300,1000,1631.1,0,437323,FEMALE,High School,priv-house-serv,wife,0,0,1/23/2015,Parked Car,?,Trivial Damage,Police,WV,Arlington,7780 Flute Lane,4,1,?,1,2,NO,6030,670,670,4690,Nissan,Pathfinder,2007,N
+180,35,464234,7/17/2005,IL,500/1000,1000,1252.48,0,432148,MALE,MD,machine-op-inspct,wife,0,-55800,02-10-2015,Vehicle Theft,?,Minor Damage,None,OH,Springfield,1687 3rd Lane,17,1,?,1,3,NO,5100,1020,510,3570,Chevrolet,Malibu,2000,N
+150,30,290162,03-12-1994,IN,100/300,1000,1677.26,0,439690,MALE,College,sales,own-child,40100,0,01-10-2015,Vehicle Theft,?,Trivial Damage,Police,WV,Springfield,6378 Britain Ave,7,1,YES,1,3,YES,4590,510,510,3570,Volkswagen,Jetta,2013,N
+463,59,638155,08-03-1994,IL,250/500,1000,979.73,0,601848,FEMALE,JD,exec-managerial,not-in-family,51700,0,02-12-2015,Multi-vehicle Collision,Front Collision,Major Damage,Other,SC,Columbus,1306 Andromedia St,14,2,?,1,2,NO,72400,7240,14480,50680,Chevrolet,Tahoe,1999,Y
+472,64,911429,8/25/2012,IN,250/500,500,989.24,0,615821,MALE,Masters,other-service,not-in-family,0,0,2/21/2015,Single Vehicle Collision,Front Collision,Major Damage,Fire,NY,Northbrook,3664 Francis Ridge,13,1,NO,2,3,NO,70900,14180,7090,49630,Mercedes,ML350,2002,N
+75,25,106186,12-02-2011,IL,500/1000,1000,1389.86,0,472475,FEMALE,Associate,priv-house-serv,husband,0,0,1/18/2015,Multi-vehicle Collision,Side Collision,Total Loss,Other,WV,Springfield,5985 Lincoln Lane,23,2,?,2,3,YES,65100,6510,6510,52080,Saab,93,2011,N
+193,40,311783,2/25/2005,OH,100/300,500,1233.85,0,457463,FEMALE,College,handlers-cleaners,husband,0,0,2/28/2015,Multi-vehicle Collision,Side Collision,Total Loss,Ambulance,PA,Hillsdale,3706 4th Hwy,23,3,?,2,1,YES,64260,0,14280,49980,Ford,Escape,1999,N
+43,43,528385,11-07-1997,IL,500/1000,500,1320.39,0,604861,FEMALE,Associate,armed-forces,not-in-family,0,0,1/19/2015,Single Vehicle Collision,Rear Collision,Major Damage,Ambulance,WV,Arlington,6603 Francis Hwy,16,1,?,2,1,?,79970,7270,21810,50890,Honda,CRV,1996,Y
+253,41,228403,4/20/2004,IN,100/300,1000,1435.09,0,471519,FEMALE,College,machine-op-inspct,not-in-family,36600,0,01-11-2015,Single Vehicle Collision,Rear Collision,Total Loss,Police,SC,Northbrook,7069 4th Hwy,17,1,NO,2,0,?,56610,6290,6290,44030,Chevrolet,Tahoe,1995,N
+152,30,209177,11/17/2009,IN,500/1000,500,1448.54,0,618682,FEMALE,JD,craft-repair,wife,58600,0,02-11-2015,Single Vehicle Collision,Side Collision,Major Damage,Fire,VA,Northbrook,5093 Flute Lane,9,1,YES,1,1,?,84590,7690,7690,69210,Toyota,Highlander,2000,Y
+160,38,497929,9/19/2009,OH,250/500,500,1733.56,0,441425,MALE,High School,sales,wife,0,-43800,01-09-2015,Multi-vehicle Collision,Side Collision,Major Damage,Fire,SC,Hillsdale,5894 Flute Drive,13,3,NO,2,1,YES,66780,7420,14840,44520,Mercedes,ML350,1996,N
+56,36,735844,11-08-2009,IN,100/300,500,1533.07,0,609336,MALE,JD,farming-fishing,own-child,0,-28800,1/20/2015,Single Vehicle Collision,Rear Collision,Major Damage,Police,NC,Springfield,8459 Apache Ave,13,1,YES,1,2,YES,58500,0,6500,52000,Ford,Escape,2001,N
+286,41,710741,09-12-2001,IL,100/300,500,1106.77,0,603320,FEMALE,College,prof-specialty,other-relative,45500,-62500,2/26/2015,Parked Car,?,Trivial Damage,Police,WV,Columbus,7447 Lincoln Ridge,3,1,?,2,0,NO,5000,500,500,4000,Dodge,RAM,2003,N
+3,29,276804,11/27/1992,IL,100/300,500,995.7,5000000,615446,FEMALE,JD,priv-house-serv,unmarried,0,0,02-02-2015,Parked Car,?,Trivial Damage,Police,PA,Springfield,1821 Andromedia Ridge,3,1,?,2,1,?,5000,500,1000,3500,Mercedes,E400,2008,Y
+286,41,507545,12-07-1998,IL,250/500,1000,1298.85,6000000,435967,FEMALE,High School,sales,other-relative,71300,-70300,01-04-2015,Multi-vehicle Collision,Front Collision,Major Damage,Ambulance,NY,Columbus,6859 Flute Ridge,16,3,?,1,3,YES,54450,6050,12100,36300,Saab,92x,2007,N
+239,38,485642,8/25/1990,OH,250/500,1000,1276.73,5000000,610246,FEMALE,Masters,handlers-cleaners,other-relative,0,0,2/19/2015,Multi-vehicle Collision,Front Collision,Major Damage,Police,WV,Northbrook,4175 Elm Ridge,12,3,NO,1,3,?,61920,6880,6880,48160,Saab,93,2003,N
+64,29,796375,10/22/2011,OH,250/500,2000,1202.28,0,479327,MALE,High School,exec-managerial,other-relative,0,-61400,01-12-2015,Single Vehicle Collision,Side Collision,Minor Damage,Ambulance,VA,Hillsdale,5007 Oak St,4,1,?,1,2,NO,43700,4370,4370,34960,Nissan,Pathfinder,2007,Y
+98,31,171183,02-01-1990,IN,100/300,500,671.92,0,468300,MALE,Masters,machine-op-inspct,wife,0,-26400,1/24/2015,Single Vehicle Collision,Front Collision,Minor Damage,Other,NC,Riverwood,5790 Flute Ridge,3,1,?,2,0,?,64080,7120,7120,49840,Ford,Escape,1997,N
+16,35,110084,11/27/1990,IL,250/500,1000,1358.03,0,612660,MALE,JD,sales,own-child,59300,-31400,2/17/2015,Single Vehicle Collision,Rear Collision,Total Loss,Other,SC,Hillsdale,8704 Britain Lane,0,1,NO,2,1,?,55000,10000,10000,35000,Volkswagen,Jetta,2008,Y
+70,27,714784,7/16/2004,IN,250/500,1000,1008.79,4000000,466691,FEMALE,Masters,adm-clerical,own-child,46000,0,1/13/2015,Vehicle Theft,?,Trivial Damage,Police,WV,Columbus,7816 MLK Lane,19,1,NO,2,3,?,4400,0,550,3850,Toyota,Camry,2000,N
+75,27,143924,12-10-1993,OH,100/300,1000,1141.1,0,468515,MALE,JD,armed-forces,other-relative,0,0,2/28/2015,Multi-vehicle Collision,Side Collision,Minor Damage,Police,SC,Hillsdale,3618 Maple Lane,15,2,?,0,1,YES,71640,5970,11940,53730,Toyota,Highlander,2008,N
+246,44,996850,03-08-1995,OH,100/300,1000,1397,0,614521,MALE,High School,machine-op-inspct,not-in-family,0,0,01-03-2015,Single Vehicle Collision,Rear Collision,Minor Damage,Other,NY,Arlington,7705 Lincoln Drive,6,1,NO,1,0,NO,61740,6860,6860,48020,Accura,MDX,1997,N
+110,27,284834,08-03-2009,OH,500/1000,1000,1664.66,0,465921,FEMALE,Associate,priv-house-serv,own-child,0,-66200,02-05-2015,Single Vehicle Collision,Side Collision,Total Loss,Ambulance,SC,Springfield,8602 Washington Ridge,3,1,?,0,3,?,57500,5750,5750,46000,Audi,A3,2010,N
+236,39,830878,11-03-1996,IN,250/500,1000,1151.39,4000000,604555,FEMALE,Masters,exec-managerial,wife,0,-63900,01-01-2015,Parked Car,?,Minor Damage,Police,NY,Springfield,2832 Andromedia Lane,17,1,YES,0,0,?,8700,870,1740,6090,Accura,RSX,2003,N
+267,46,270208,08-09-2004,OH,100/300,2000,1546.01,0,616276,FEMALE,MD,adm-clerical,wife,0,0,01-06-2015,Multi-vehicle Collision,Front Collision,Total Loss,Police,VA,Riverwood,9760 4th Hwy,4,4,NO,2,1,?,77100,15420,7710,53970,Volkswagen,Jetta,1996,N
+463,57,407958,7/20/1991,IL,250/500,500,1063.67,0,463356,MALE,Masters,priv-house-serv,wife,0,0,02-03-2015,Single Vehicle Collision,Front Collision,Minor Damage,Police,NY,Springfield,2509 Rock Drive,14,1,NO,2,0,YES,59400,6600,6600,46200,Dodge,Neon,1995,N
+303,46,832300,1/14/2005,IN,100/300,1000,709.14,0,450184,MALE,Masters,machine-op-inspct,husband,0,0,02-12-2015,Multi-vehicle Collision,Rear Collision,Minor Damage,Fire,NY,Northbrook,2063 Weaver St,3,3,NO,1,0,NO,54890,9980,4990,39920,Toyota,Corolla,2006,N
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
