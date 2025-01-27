@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Source-to-Target Column Mapping</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Custom styles */
+        td:first-child, td:nth-child(2), td:nth-child(3) {
+            border-right: 1px solid #dee2e6 !important;
+        }
+        .plain-text { display: block; padding: 6px; font-size: 1rem; color: #212529; background-color: transparent; border: none; }
+        .save-button-container { text-align: left; }
+        #probableMatchesModal .modal-dialog {max-width: 40%; width: auto;}
+        #probableMatchesModal .modal-content {overflow-wrap: break-word; word-wrap: break-word; word-break: break-word; hyphens: auto;}
+        #allTargetsModal .modal-dialog { position: fixed; top: 0; right: 0; margin: 0; width: 25%; height: 100%; }
+        #allTargetsModal .modal-content { height: 100%; overflow-y: auto; border-radius: 0; }
+        .list-group-item { display: flex; justify-content: space-between; align-items: center; }
+        .add-target-btn { font-weight: bold; color: #007bff; cursor: pointer; }
+        .add-target-btn:hover { text-decoration: underline; }
+    </style>
+</head>
+<body class="bg-light">
+    <div class="container my-5">
+        <h1 class="text-center mb-4">Source-to-Target Column Mapping</h1>
+
+        <!-- Flash Messages -->
+        {% with messages = get_flashed_messages(with_categories=true) %}
+            {% if messages %}
+                <div class="alert-container">
+                    {% for category, message in messages %}
+                        <div class="alert alert-{{ category }} alert-dismissible fade show" role="alert">
+                            {{ message }}
+                            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                        </div>
+                    {% endfor %}
+                </div>
+            {% endif %}
+        {% endwith %}
+
+        <!-- Form for File Upload -->
+        <form method="POST" action="/" enctype="multipart/form-data">
+            <div class="row mb-4">
+                <div class="col-md-6">
+                    <label for="sourceFile" class="form-label">Select Source File:</label>
+                    <input type="file" class="form-control" id="sourceFile" name="sourceFile" accept=".csv">
+                </div>
+                <div class="col-md-6">
+                    <label for="targetFile" class="form-label">Select Target File:</label>
+                    <input type="file" class="form-control" id="targetFile" name="targetFile" accept=".csv">
+                </div>
+            </div>
+            <div class="d-flex justify-content-center mb-4">
+                <button type="submit" class="btn btn-success">Run Model</button>
+            </div>
+        </form>
+
+        <!-- Conditional Mapping Results -->
+        {% if file_exists %}
+        <form method="POST">
+            <div class="card shadow">
+                <div class="card-body">
+                    <h5 class="card-title">Mapping Results</h5>
+                    <table class="table table-striped table-bordered" id="mappingTable">
+                        <thead class="table-dark">
+                            <tr>
+                                <th>Source</th>
+                                <th>Target</th>
+                                <th>Score</th>
+                                <th>Actions</th>
+                                <th>Update</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for row in results %}
+                            <tr data-source="{{ row['Source Column'] }}">
+                                <td>{{ row['Source Column'] }}</td>
+                                <td class="target-column">{{ row['Target Column'] }}</td>
+                                <td class="score-column">{{ row['Weighted Average Score'] }}</td>
+                                <td>
+                                    <input type="checkbox" class="form-check-input" name="action_{{ loop.index }}">
+                                    <input type="hidden" name="source_{{ loop.index }}" value="{{ row['Source Column'] }}">
+                                    <input type="hidden" name="target_{{ loop.index }}" value="{{ row['Target Column'] }}">
+                                    <input type="hidden" name="score_{{ loop.index }}" value="{{ row['Weighted Average Score'] }}">
+                                </td>
+                                <td>
+                                    <button type="button" class="btn btn-outline-secondary update-btn" 
+                                            data-source="{{ row['Source Column'] }}">🔄 Update</button>
+                                </td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary mt-3">Save Changes</button>
+        </form>
+        {% else %}
+        <div class="alert alert-warning text-center" role="alert">
+            No column matching results found. Please upload files and run the model to view results.
+        </div>
+        {% endif %}
+    </div>
+
+    <!-- Probable Matches Modal -->
+    <div class="modal fade" id="probableMatchesModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Probable Matches</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th>Sl. No.</th>
+                                <th>Source</th>
+                                <th>
+                                    Target 
+                                    <button class="btn btn-sm btn-outline-info ms-2 view-all-targets" title="View All Targets">📄</button>
+                                </th>
+                                <th>Score</th>
+                                <th>Select</th>
+                            </tr>
+                        </thead>
+                        <tbody id="probableMatchesBody"></tbody>
+                    </table>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary save-selection">Save Selection</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- All Targets Modal -->
+    <div class="modal fade" id="allTargetsModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">All Targets</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <ul id="allTargetsList" class="list-group"></ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        let selectedSourceRow = null;
+        let selectedSourceForAllTargets = null;
+
+        document.querySelectorAll('.update-btn').forEach(button => {
+            button.addEventListener('click', async () => {
+                const source = button.getAttribute('data-source');
+                selectedSourceRow = button.closest('tr');
+                const response = await fetch(`/get_probable_matches?source=${encodeURIComponent(source)}`);
+                const data = await response.json();
+
+                const modalBody = document.getElementById('probableMatchesBody');
+                modalBody.innerHTML = '';
+
+                if (data.matches) {
+                    data.matches.forEach((match, index) => {
+                        modalBody.innerHTML += `
+                            <tr>
+                                <td>${index + 1}</td>
+                                <td>${match['Source Column']}</td>
+                                <td>${match['Target Column']}</td>
+                                <td>${match['Weighted Average Score']}</td>
+                                <td><input type="radio" name="selected_match" data-score="${match['Weighted Average Score']}" value="${match['Target Column']}"></td>
+                            </tr>`;
+                    });
+                } else {
+                    modalBody.innerHTML = `<tr><td colspan="5">No matches found.</td></tr>`;
+                }
+
+                const modal = new bootstrap.Modal(document.getElementById('probableMatchesModal'));
+                modal.show();
+            });
+        });
+
+        document.querySelector('.save-selection').addEventListener('click', () => {
+            const selectedTarget = document.querySelector('input[name="selected_match"]:checked');
+            if (selectedTarget && selectedSourceRow) {
+                const targetCell = selectedSourceRow.querySelector('.target-column');
+                const scoreCell = selectedSourceRow.querySelector('.score-column');
+
+                targetCell.textContent = selectedTarget.value;
+                scoreCell.textContent = selectedTarget.getAttribute('data-score');
+
+                const modal = bootstrap.Modal.getInstance(document.getElementById('probableMatchesModal'));
+                modal.hide();
+            } else {
+                alert("Please select a target before saving.");
+            }
+        });
+
+        document.querySelector('.view-all-targets').addEventListener('click', async () => {
+            selectedSourceForAllTargets = selectedSourceRow.getAttribute('data-source');
+            const allTargetsResponse = await fetch('/get_all_targets');
+            const allTargetsData = await allTargetsResponse.json();
+
+            const allTargetsList = document.getElementById('allTargetsList');
+            allTargetsList.innerHTML = '';
+
+            allTargetsData.targets.forEach(target => {
+                allTargetsList.innerHTML += `
+                    <li class="list-group-item">
+                        <span>${target}</span>
+                        <span class="add-target-btn" data-target="${target}">+</span>
+                    </li>`;
+            });
+
+            const allTargetsModal = new bootstrap.Modal(document.getElementById('allTargetsModal'));
+            allTargetsModal.show();
+
+            document.querySelectorAll('.add-target-btn').forEach(button => {
+                button.addEventListener('click', async () => {
+                    const target = button.getAttribute('data-target');
+                    const response = await fetch(`/get_score_for_target?target=${encodeURIComponent(target)}&source=${encodeURIComponent(selectedSourceForAllTargets)}`);
+                    const data = await response.json();
+
+                    if (data.error) {
+                        alert(data.error);
+                    } else {
+                        const modalBody = document.getElementById('probableMatchesBody');
+                        modalBody.innerHTML += `
+                            <tr>
+                                <td>${modalBody.querySelectorAll('tr').length + 1}</td>
+                                <td>${selectedSourceForAllTargets}</td>
+                                <td>${target}</td>
+                                <td>${data.score}</td>
+                                <td><input type="radio" name="selected_match" value="${target}" data-score="${data.score}"></td>
+                            </tr>`;
+
+                        const modal = bootstrap.Modal.getInstance(document.getElementById('allTargetsModal'));
+                        modal.hide();
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
