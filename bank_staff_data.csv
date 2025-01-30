@@ -1,0 +1,51 @@
+Employee ID,First Name,Last Name,Age,Gender,Department,Job Title,Employment Status,Date of Hire,Annual Salary,Bonus Percentage,Performance Rating,Office Location,Education Level,Years of Experience,Certifications,Manager ID,Work Email,Phone Number,Last Training Date
+EMP1000,Kimberly,Aguilar,41,Female,HR,Team Lead,Full-time,2015-04-19,149620,5.24,5,Tokyo,High School,6,CFA,MGR18,kimberly.aguilar@bankcorp.com,001-076-666-2555,2023-03-11
+EMP1001,Matthew,Deleon,52,Other,IT,Analyst,t,2016-04-19,123879,5.22,4,London,Bachelor's,22,CPA,MGR15,matthew.deleon@bankcorp.com,229.787.3246x2717,2023-05-05
+EMP1002,Thomas,Kelly,31,Female,Operations,Clerk,t,2017-11-25,100910,17.39,2,New York,PhD,6,Six Sigma,MGR15,thomas.kelly@bankcorp.com,3105349487,2024-03-17
+EMP1003,David,Reyes,45,Female,Operations,Clerk,t,2017-10-12,134050,6.23,5,New York,Bachelor's,3,CPA,MGR6,david.reyes@bankcorp.com,024-232-6913,2023-10-12
+EMP1004,David,Perry,53,Female,Customer Service,Clerk,t,2017-02-01,74057,14.33,5,Tokyo,Bachelor's,28,PMP,MGR10,david.perry@bankcorp.com,418.590.4556,2025-01-20
+EMP1005,Stephanie,Figueroa,54,Other,Finance,Analyst,t,2023-09-16,36539,13.28,4,New York,PhD,3,Scrum Master,MGR15,stephanie.figueroa@bankcorp.com,3895603174,2023-11-21
+EMP1006,Patrick,Johnston,58,Male,Operations,Consultant,t,2022-11-28,116227,19.32,2,Toronto,Master's,2,CPA,MGR4,patrick.johnston@bankcorp.com,507.978.1703,2023-09-01
+EMP1007,Sharon,Buck,38,Male,Operations,Manager,t,2016-12-17,61992,8.78,4,New York,Bachelor's,37,PMP,MGR6,sharon.buck@bankcorp.com,034.359.1798,2023-07-09
+EMP1008,Mathew,Russell,49,Male,Operations,Manager,t,2015-09-14,51175,9.36,1,Toronto,Bachelor's,2,PMP,MGR9,mathew.russell@bankcorp.com,001-020-562-3174x2621,2024-10-11
+EMP1009,Lisa,Barry,28,Male,HR,Team Lead,t,2023-11-17,84807,10.59,2,Sydney,Bachelor's,6,Scrum Master,MGR7,lisa.barry@bankcorp.com,6338725480,2024-09-29
+EMP1010,Paul,Burns,27,Male,Marketing,Clerk,t,2023-10-24,134453,7.58,2,New York,Bachelor's,19,CPA,MGR1,paul.burns@bankcorp.com,9863254827,2023-09-05
+EMP1011,Cassandra,Hopkins,50,Male,Finance,Consultant,t,2024-11-29,73981,8.46,1,Toronto,Bachelor's,40,CPA,MGR10,cassandra.hopkins@bankcorp.com,358.504.4980x56551,2023-12-16
+EMP1012,Donna,Blair,34,Other,HR,Team Lead,t,2015-08-11,34595,8.83,4,Sydney,PhD,24,None,MGR9,donna.blair@bankcorp.com,(146)372-9844x535,2024-11-08
+EMP1013,Billy,Dean,53,Female,Finance,Manager,t,2023-06-01,137789,12.46,3,Sydney,Master's,29,Scrum Master,MGR13,billy.dean@bankcorp.com,+1-740-678-9969x072,2023-12-16
+EMP1014,David,Brown,49,Female,Operations,Consultant,t,2018-08-27,71280,8.13,4,London,Bachelor's,16,CPA,MGR11,david.brown@bankcorp.com,(718)834-6208,2024-06-01
+EMP1015,Christina,Smith,25,Male,Customer Service,Consultant,t,2019-07-30,46523,13.59,1,Toronto,Bachelor's,18,Six Sigma,MGR17,christina.smith@bankcorp.com,(823)283-1455,2023-09-09
+EMP1016,Donald,Brown,29,Female,HR,Team Lead,t,2024-10-08,101964,7.27,2,Sydney,PhD,3,CPA,MGR2,donald.brown@bankcorp.com,(983)578-1818,2024-11-07
+EMP1017,Jason,Solis,34,Other,Finance,Clerk,t,2020-09-04,96166,14.89,3,Tokyo,Master's,27,Six Sigma,MGR11,jason.solis@bankcorp.com,701.876.9791x4945,2024-07-07
+EMP1018,Justin,Castillo,57,Other,Operations,Consultant,t,2020-07-28,60255,9.23,4,Toronto,High School,3,PMP,MGR2,justin.castillo@bankcorp.com,+1-213-240-1373x59982,2023-03-22
+EMP1019,Hailey,Mosley,30,Other,Marketing,Analyst,t,2015-12-25,101685,15.81,4,New York,Master's,13,Six Sigma,MGR10,hailey.mosley@bankcorp.com,184.624.2769x21174,2023-11-20
+EMP1020,Melanie,Hill,54,Male,HR,Manager,t,2023-03-25,82819,19.17,3,Tokyo,Master's,7,PMP,MGR9,melanie.hill@bankcorp.com,(621)646-5254x1493,2025-01-18
+EMP1021,Robert,Thompson,44,Male,Operations,Clerk,t,2024-01-01,52047,19.51,4,London,PhD,8,CFA,MGR3,robert.thompson@bankcorp.com,5805464718,2024-01-01
+EMP1022,Brittany,Ross,32,Female,HR,Analyst,t,2019-08-15,59846,8.44,4,London,High School,3,None,MGR20,brittany.ross@bankcorp.com,+1-950-912-9981x5534,2024-02-27
+EMP1023,Dawn,Gibson,46,Male,HR,Clerk,t,2015-03-27,120894,18.55,3,Sydney,Master's,37,None,MGR8,dawn.gibson@bankcorp.com,(473)228-3223x464,2024-07-24
+EMP1024,Thomas,Parker,51,Female,Finance,Team Lead,t,2016-12-29,51383,17.02,1,Tokyo,Master's,38,Six Sigma,MGR16,thomas.parker@bankcorp.com,+1-719-296-4413x61838,2024-12-17
+EMP1025,Elijah,Hudson,42,Other,Customer Service,Analyst,t,2023-11-05,108060,19.5,2,Tokyo,PhD,24,CPA,MGR16,elijah.hudson@bankcorp.com,+1-577-719-8575x3224,2024-10-20
+EMP1026,Jamie,Sanchez,59,Male,Operations,Clerk,t,2021-02-01,76387,13.25,2,Toronto,PhD,39,None,MGR5,jamie.sanchez@bankcorp.com,(705)270-1825x212,2023-04-03
+EMP1027,Tina,Stephens,54,Female,IT,Analyst,t,2020-05-24,85865,9.49,4,Toronto,Bachelor's,7,CFA,MGR11,tina.stephens@bankcorp.com,546-582-0267x7256,2024-11-11
+EMP1028,Matthew,Graham,26,Female,IT,Analyst,t,2025-01-07,39588,16.45,3,London,PhD,8,PMP,MGR11,matthew.graham@bankcorp.com,(089)220-0027x980,2023-03-27
+EMP1029,Paul,Francis,49,Female,Customer Service,Manager,t,2016-07-31,47291,17.73,4,Sydney,PhD,31,CFA,MGR9,paul.francis@bankcorp.com,090.848.8143x486,2024-11-19
+EMP1030,Dustin,Robinson,52,Female,Customer Service,Consultant,t,2020-10-23,106971,12.0,4,New York,High School,18,PMP,MGR17,dustin.robinson@bankcorp.com,(925)929-4302,2023-04-07
+EMP1031,Anita,Hayes,44,Male,HR,Analyst,t,2018-07-03,36340,19.6,1,New York,PhD,23,CPA,MGR2,anita.hayes@bankcorp.com,(401)588-8722x033,2023-11-10
+EMP1032,Hannah,Berry,29,Male,IT,Analyst,t,2024-03-05,86299,10.24,5,London,PhD,32,CFA,MGR19,hannah.berry@bankcorp.com,684.430.9093x2587,2023-08-27
+EMP1033,Erica,Warner,37,Female,Marketing,Analyst,t,2021-01-03,128304,10.48,2,London,Master's,37,Scrum Master,MGR1,erica.warner@bankcorp.com,+1-215-711-3306x5026,2024-07-20
+EMP1034,Joseph,Crane,37,Female,Customer Service,Clerk,t,2024-10-20,138045,12.74,5,Tokyo,High School,8,PMP,MGR19,joseph.crane@bankcorp.com,203.564.6360,2023-09-26
+EMP1035,Robert,Castaneda,22,Other,Operations,Analyst,t,2022-04-14,146508,7.76,2,London,Master's,28,Six Sigma,MGR2,robert.castaneda@bankcorp.com,001-282-877-0447x0838,2024-02-22
+EMP1036,Jeremy,Williams,30,Male,Operations,Consultant,t,2025-01-22,108386,19.2,4,Sydney,Master's,29,Scrum Master,MGR19,jeremy.williams@bankcorp.com,+1-661-531-2686x130,2023-09-01
+EMP1037,Krista,Gomez,59,Female,Operations,Consultant,t,2018-04-07,31071,11.05,1,Tokyo,High School,9,CFA,MGR1,krista.gomez@bankcorp.com,784-042-3996,2024-06-29
+EMP1038,Joseph,Garrison,39,Female,Marketing,Team Lead,t,2019-08-22,101669,7.49,3,Sydney,PhD,3,CFA,MGR9,joseph.garrison@bankcorp.com,989-042-5029,2024-09-20
+EMP1039,Lisa,Smith,31,Other,HR,Clerk,t,2020-06-03,112013,17.27,5,New York,PhD,31,Six Sigma,MGR20,lisa.smith@bankcorp.com,(917)670-5986,2024-06-01
+EMP1040,Caroline,James,44,Other,HR,Manager,t,2017-07-10,66760,6.49,4,Toronto,Master's,19,CPA,MGR11,caroline.james@bankcorp.com,(312)562-2526x81221,2023-12-06
+EMP1041,William,Cole,25,Male,IT,Analyst,t,2017-03-08,49671,16.48,4,Sydney,Bachelor's,31,PMP,MGR8,william.cole@bankcorp.com,999-638-3552x7385,2023-07-26
+EMP1042,Frank,Chambers,53,Other,Marketing,Team Lead,t,2015-02-18,132681,19.95,4,Tokyo,PhD,10,CPA,MGR8,frank.chambers@bankcorp.com,339-638-4799x6289,2024-07-22
+EMP1043,Mark,Daugherty,41,Male,Finance,Team Lead,t,2015-07-13,120009,6.28,3,Tokyo,High School,21,None,MGR19,mark.daugherty@bankcorp.com,3373735172,2025-01-18
+EMP1044,Jorge,Cox,44,Other,Finance,Clerk,t,2016-06-02,104819,18.31,5,New York,Bachelor's,36,None,MGR12,jorge.cox@bankcorp.com,923-884-8900x65691,2024-02-03
+EMP1045,Jeremy,Wong,28,Male,Customer Service,Consultant,t,2018-05-28,41062,14.91,2,New York,Bachelor's,35,PMP,MGR8,jeremy.wong@bankcorp.com,684-881-3920,2023-10-05
+EMP1046,Leslie,Smith,53,Other,Finance,Consultant,t,2022-09-06,45273,13.01,2,Tokyo,Bachelor's,33,Scrum Master,MGR5,leslie.smith@bankcorp.com,(939)057-2071x877,2023-04-28
+EMP1047,Ryan,Terrell,39,Other,HR,Consultant,t,2020-03-03,140304,7.24,2,Toronto,Master's,32,Six Sigma,MGR20,ryan.terrell@bankcorp.com,8951560181,2023-02-04
+EMP1048,Shelby,Hall,31,Other,HR,Clerk,t,2021-11-22,34391,6.46,1,Sydney,High School,23,None,MGR8,shelby.hall@bankcorp.com,001-444-904-4656x185,2024-02-25
+EMP1049,Michael,Carlson,48,Male,Operations,Analyst,t,2015-09-19,83655,9.75,2,Toronto,Master's,10,Scrum Master,MGR8,michael.carlson@bankcorp.com,+1-366-863-8598,2024-06-07

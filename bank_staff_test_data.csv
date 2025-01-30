@@ -1,0 +1,41 @@
+Staff ID,First Name,Last Name,Age Group,Sex,Division,Role,Employment Type,Joining Date,Salary,Incentive Percentage,Performance Score,Location,Qualification,Experience (Years)
+STAFF2000,Darryl,Holmes,41-50,Female,PR,Engineer,Permanent,2022-09-17,44757,7.77,4,Paris,Master's,30
+STAFF2001,Robert,Barnes,51-60,Other,IT,Specialist,Freelance,2018-08-25,98337,8.87,2,Sydney,Certification,7
+STAFF2002,James,Simpson,20-30,Female,Logistics,Associate,Temporary,2021-06-17,42656,8.75,3,New York,Bachelor's,26
+STAFF2003,James,Wilson,20-30,Other,Support,Engineer,Freelance,2018-08-01,79991,14.11,3,Paris,Diploma,12
+STAFF2004,Breanna,Williams,31-40,Male,Accounting,Assistant,Permanent,2017-02-16,31043,11.4,3,Sydney,Diploma,32
+STAFF2005,Antonio,Andrews,31-40,Female,Support,Associate,Temporary,2020-08-13,80377,10.54,3,Tokyo,Bachelor's,33
+STAFF2006,Tonya,Lewis,41-50,Female,Accounting,Assistant,Freelance,2017-09-23,64946,13.98,4,Tokyo,Certification,20
+STAFF2007,Steven,Guerra,51-60,Female,Accounting,Assistant,Permanent,2021-05-07,58716,3.74,4,Tokyo,Diploma,19
+STAFF2008,Casey,Schmidt,41-50,Other,Accounting,Associate,Permanent,2024-06-10,40862,6.08,3,Sydney,Certification,27
+STAFF2009,Robin,Martinez,51-60,Male,Logistics,Associate,Permanent,2023-12-19,82917,3.75,2,Berlin,Bachelor's,33
+STAFF2010,Eric,Padilla,51-60,Male,Logistics,Assistant,Freelance,2024-01-03,56806,12.46,3,Tokyo,Certification,11
+STAFF2011,Jessica,Arnold,20-30,Female,Logistics,Assistant,Temporary,2018-11-13,77994,6.77,4,Paris,Bachelor's,23
+STAFF2012,Timothy,Jones,31-40,Male,Accounting,Assistant,Freelance,2019-12-06,68489,14.07,1,Tokyo,Certification,8
+STAFF2013,Chris,Daniels,51-60,Female,Logistics,Associate,Freelance,2022-01-03,113750,9.24,1,London,Diploma,8
+STAFF2014,Mark,Sanchez,41-50,Female,Support,Assistant,Temporary,2020-09-08,80271,9.89,4,London,Certification,3
+STAFF2015,Chris,Castillo,20-30,Female,Recruitment,Associate,Temporary,2018-10-27,53956,9.82,2,Berlin,Bachelor's,13
+STAFF2016,Tracy,Bonilla,20-30,Other,Accounting,Associate,Permanent,2020-09-24,79527,8.63,4,Paris,Bachelor's,2
+STAFF2017,Matthew,Smith,51-60,Other,PR,Specialist,Freelance,2019-12-14,72883,3.46,2,Berlin,Bachelor's,6
+STAFF2018,Ronald,Williamson,41-50,Male,IT,Supervisor,Permanent,2023-06-08,112967,12.36,3,Paris,Diploma,25
+STAFF2019,Leah,Brown,41-50,Other,IT,Associate,Permanent,2022-12-10,101141,7.46,1,Tokyo,Master's,10
+STAFF2020,Matthew,Livingston,41-50,Female,Accounting,Specialist,Temporary,2018-01-05,40297,12.61,1,New York,Bachelor's,7
+STAFF2021,Justin,Bond,51-60,Female,Accounting,Associate,Permanent,2023-08-06,57333,12.47,1,Paris,Certification,2
+STAFF2022,Stephen,Moore,51-60,Female,Logistics,Specialist,Freelance,2022-08-28,28735,12.63,1,Sydney,Certification,26
+STAFF2023,Jackie,Harper,41-50,Female,Recruitment,Assistant,Permanent,2018-12-02,99031,11.22,4,London,Diploma,9
+STAFF2024,Mitchell,Morrison,51-60,Other,IT,Specialist,Permanent,2023-08-09,55298,4.76,5,Paris,Master's,22
+STAFF2025,William,Garcia,41-50,Female,Support,Assistant,Temporary,2019-06-13,51783,5.31,5,Sydney,Diploma,2
+STAFF2026,Carrie,Mitchell,20-30,Male,Accounting,Engineer,Freelance,2021-04-14,33272,5.86,4,Paris,Diploma,4
+STAFF2027,Kristen,Ramirez,31-40,Other,Recruitment,Assistant,Freelance,2018-12-05,79411,13.01,2,Berlin,Bachelor's,24
+STAFF2028,Elizabeth,George,41-50,Female,Logistics,Assistant,Temporary,2021-07-27,28858,6.52,1,London,Bachelor's,2
+STAFF2029,Anthony,Brooks,51-60,Other,Recruitment,Engineer,Freelance,2019-10-10,106832,12.58,3,Paris,Bachelor's,17
+STAFF2030,Renee,Butler,20-30,Other,Recruitment,Engineer,Permanent,2018-04-01,51276,3.11,4,Paris,Diploma,29
+STAFF2031,Denise,Brock,31-40,Female,Logistics,Specialist,Temporary,2020-09-28,85957,13.2,4,New York,Master's,16
+STAFF2032,Jamie,Gordon,51-60,Other,Logistics,Associate,Permanent,2018-10-16,80612,11.72,4,Paris,Master's,25
+STAFF2033,Stacey,Zimmerman,20-30,Female,Recruitment,Engineer,Freelance,2024-11-06,44193,11.53,4,Paris,Master's,29
+STAFF2034,Loretta,Foster,51-60,Female,Recruitment,Assistant,Temporary,2019-07-09,43492,8.47,4,Berlin,Master's,35
+STAFF2035,Brad,Brady,20-30,Male,IT,Associate,Permanent,2018-03-06,53823,6.66,2,London,Certification,19
+STAFF2036,Lisa,Park,51-60,Other,PR,Engineer,Permanent,2017-11-05,65307,3.63,2,New York,Certification,2
+STAFF2037,Jose,Mendez,41-50,Female,IT,Assistant,Freelance,2021-12-03,96375,8.67,2,Berlin,Master's,21
+STAFF2038,Kathleen,Callahan,41-50,Other,Logistics,Associate,Permanent,2021-12-25,80494,4.98,2,London,Master's,32
+STAFF2039,Noah,Stevens,51-60,Other,Logistics,Associate,Freelance,2019-10-03,104321,11.51,4,Sydney,Diploma,16
