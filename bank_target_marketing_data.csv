@@ -1,0 +1,46 @@
+Customer ID,First Name,Last Name,Age,Gender,Marital Status,Number of Dependents,Annual Income,Account Type,Account Balance,Loan Status,Loan Amount,Credit Score,Email Opt-in,Mobile Opt-in,Preferred Contact Method,Region,Marketing Campaigns Participated,Last Campaign Response,Last Contact Date,Product Interest,Spending Score,Churn Probability,Savings Score,Feedback Score
+CUST3000,Vincent,Fisher,59,Male,Divorced,1,43641,Checking,138811,No Loan,0,624,Yes,No,SMS,Central,7,No Response,2023-09-11,Credit Card,95,0.4,9,2
+CUST3001,Daniel,Vasquez,48,Female,Single,4,117820,Checking,480024,Paid Loan,35860,636,No,Yes,Phone,East,6,Positive,2024-01-25,Personal Loan,58,0.88,76,5
+CUST3002,Cynthia,Lee,56,Male,Widowed,1,94477,Business,138920,Active Loan,29720,685,Yes,No,Phone,East,10,No Response,2024-11-12,Personal Loan,21,0.63,81,2
+CUST3003,Sharon,Kelly,60,Male,Married,2,29410,Premium,95376,No Loan,0,603,No,Yes,SMS,North,9,No Response,2023-08-03,Investments,55,0.04,89,3
+CUST3004,Christine,West,57,Male,Divorced,5,31604,Business,246722,No Loan,0,608,No,No,Phone,West,8,Positive,2024-11-23,Personal Loan,73,0.53,1,7
+CUST3005,Kyle,Stewart,34,Female,Single,0,188423,Business,349015,Active Loan,95859,355,No,No,Phone,North,1,Negative,2023-04-04,Investments,49,0.26,10,5
+CUST3006,Tyrone,Murray,36,Male,Single,3,97854,Savings,354735,Active Loan,58238,482,Yes,No,Phone,South,2,No Response,2024-03-17,Credit Card,52,0.63,99,3
+CUST3007,Ann,Moore,48,Other,Married,0,139190,Premium,2242,Active Loan,47168,515,Yes,Yes,SMS,North,2,Negative,2024-05-02,Personal Loan,40,0.97,12,3
+CUST3008,Miguel,Patel,60,Other,Married,3,164408,Premium,327382,No Loan,0,405,No,Yes,SMS,East,1,Negative,2024-07-13,Personal Loan,94,0.6,100,4
+CUST3009,Joseph,Salazar,65,Female,Widowed,0,117376,Checking,70702,No Loan,0,389,No,No,SMS,West,10,No Response,2023-11-08,Mortgage,58,0.58,52,3
+CUST3010,Jessica,Vance,63,Female,Married,5,174203,Premium,431699,Paid Loan,53620,818,Yes,Yes,Phone,West,4,Negative,2024-09-06,Mortgage,62,0.75,22,3
+CUST3011,Patrick,Bernard,51,Other,Divorced,4,99434,Checking,356666,Active Loan,19945,548,Yes,No,Email,South,3,No Response,2023-01-28,Personal Loan,61,0.44,51,1
+CUST3012,Javier,Ramirez,52,Other,Married,5,60743,Business,478717,No Loan,0,594,No,No,SMS,North,5,Positive,2024-03-06,Investments,35,0.68,70,2
+CUST3013,Jeffery,Davis,44,Other,Married,4,55360,Checking,121046,Active Loan,93247,331,Yes,Yes,Email,North,8,Negative,2023-10-28,Mortgage,77,0.99,83,9
+CUST3014,Sheri,Fisher,53,Male,Divorced,0,89634,Savings,180337,Active Loan,51746,665,No,Yes,Email,South,8,Positive,2023-05-04,Investments,65,0.57,81,5
+CUST3015,Amanda,Hudson,23,Other,Divorced,1,61427,Business,68241,Paid Loan,33235,472,No,No,Email,South,1,No Response,2024-06-05,Investments,9,0.21,14,6
+CUST3016,Hannah,Swanson,59,Other,Married,3,62485,Premium,84831,Paid Loan,51554,763,Yes,No,SMS,East,2,No Response,2023-12-06,Mortgage,55,0.69,56,9
+CUST3017,Elizabeth,Neal,58,Other,Divorced,2,158395,Checking,156315,Active Loan,7299,740,No,No,SMS,West,6,No Response,2024-01-04,Investments,6,0.6,21,5
+CUST3018,Matthew,Holder,74,Male,Widowed,4,147107,Savings,264532,No Loan,0,818,Yes,No,SMS,East,6,Positive,2023-11-03,Mortgage,99,0.17,11,8
+CUST3019,Eileen,Shepard,67,Female,Widowed,2,62733,Savings,137713,No Loan,0,848,No,Yes,Phone,South,8,No Response,2024-06-04,Personal Loan,31,0.47,58,9
+CUST3020,Michael,Torres,59,Female,Divorced,4,137820,Premium,300208,Active Loan,14600,817,No,Yes,SMS,West,6,Negative,2023-08-15,Mortgage,2,0.46,99,9
+CUST3021,Albert,Smith,63,Male,Divorced,5,20408,Checking,163313,Paid Loan,3490,495,No,Yes,Phone,Central,10,Positive,2023-05-01,Mortgage,82,0.33,97,6
+CUST3022,Cory,James,22,Other,Divorced,5,99814,Checking,216491,Paid Loan,21946,550,Yes,Yes,Email,North,10,No Response,2023-10-18,Personal Loan,83,0.04,67,6
+CUST3023,Teresa,Gross,30,Female,Widowed,5,114536,Savings,50317,No Loan,0,460,Yes,Yes,SMS,East,9,Positive,2023-03-06,Credit Card,82,0.53,85,4
+CUST3024,Shane,Hoffman,52,Male,Single,0,53892,Savings,287582,Active Loan,42715,523,Yes,No,Phone,North,10,Positive,2025-01-21,Mortgage,100,0.96,57,6
+CUST3025,Meagan,Perry,59,Other,Single,3,26045,Checking,482590,No Loan,0,464,No,No,Email,East,7,Positive,2024-08-17,Investments,21,0.61,33,2
+CUST3026,Kenneth,Poole,46,Other,Married,3,178360,Checking,371002,No Loan,0,726,Yes,Yes,Phone,Central,6,Negative,2024-02-07,Personal Loan,95,0.81,65,6
+CUST3027,Kelly,Wright,72,Other,Divorced,0,165830,Premium,489368,No Loan,0,614,Yes,No,Email,West,1,Positive,2023-09-08,Personal Loan,88,0.15,58,10
+CUST3028,Kenneth,Aguilar,62,Female,Married,5,36071,Business,482486,No Loan,0,466,No,No,SMS,South,0,Positive,2023-02-16,Mortgage,33,0.96,41,7
+CUST3029,Nicole,Porter,47,Female,Divorced,0,45539,Business,36929,Active Loan,30969,643,Yes,No,Phone,South,5,No Response,2023-10-16,Mortgage,34,0.94,38,8
+CUST3030,Jared,Hill,57,Other,Single,3,148860,Savings,26916,Active Loan,20869,439,Yes,Yes,Phone,East,1,No Response,2023-03-22,Credit Card,69,0.39,29,4
+CUST3031,Daniel,York,33,Other,Divorced,0,134960,Premium,495412,Active Loan,93300,543,Yes,No,Phone,East,6,Positive,2023-09-13,Investments,79,0.9,58,10
+CUST3032,Jeremy,Mitchell,63,Male,Married,2,111889,Business,493502,Active Loan,62507,373,No,Yes,SMS,Central,3,Positive,2024-03-14,Mortgage,20,0.82,5,5
+CUST3033,Karla,Rodriguez,44,Male,Married,5,120084,Premium,319882,Active Loan,50808,713,No,No,Email,East,4,No Response,2024-08-08,Mortgage,68,0.99,8,4
+CUST3034,Lauren,Hill,34,Male,Divorced,1,31776,Business,166260,No Loan,0,501,Yes,Yes,Phone,South,3,No Response,2024-06-12,Mortgage,55,0.84,99,8
+CUST3035,Patrick,Lee,45,Other,Single,3,190132,Business,228860,Paid Loan,63580,362,Yes,Yes,SMS,East,4,No Response,2024-08-30,Investments,47,0.96,48,10
+CUST3036,Debbie,Patterson,73,Male,Married,3,42460,Checking,339033,No Loan,0,352,No,No,SMS,West,5,Negative,2024-02-16,Investments,39,0.13,27,9
+CUST3037,Jennifer,Aguilar,52,Other,Single,3,164558,Business,404444,Paid Loan,55861,328,No,No,Phone,West,9,Negative,2023-06-25,Personal Loan,32,0.17,53,6
+CUST3038,Joseph,Lynch,64,Female,Divorced,4,93539,Checking,433921,No Loan,0,361,Yes,Yes,Phone,West,3,Positive,2024-10-28,Credit Card,18,0.84,90,1
+CUST3039,Jennifer,Williams,44,Male,Single,1,29666,Savings,163183,Paid Loan,491,337,No,Yes,SMS,West,4,No Response,2024-07-01,Credit Card,49,0.38,91,7
+CUST3040,Gregory,Fletcher,47,Female,Divorced,0,159177,Checking,189423,Active Loan,62251,685,No,Yes,Email,East,4,Positive,2023-07-05,Credit Card,85,0.68,91,10
+CUST3041,Tracy,Morris,40,Other,Divorced,4,188542,Business,210597,No Loan,0,349,No,Yes,Phone,West,8,Negative,2024-01-28,Mortgage,88,0.07,23,8
+CUST3042,Joshua,Ingram,42,Male,Married,4,146269,Checking,33592,Active Loan,53655,547,Yes,No,Phone,South,4,Negative,2023-08-12,Mortgage,11,0.96,74,10
+CUST3043,Hannah,Thompson,25,Male,Widowed,0,43404,Checking,204726,No Loan,0,309,No,Yes,Email,East,4,Negative,2024-02-18,Personal Loan,82,0.9,64,3
+CUST3044,Stephanie,Pruitt,74,Other,Single,5,171211,Business,228778,Paid Loan,28512,742,Yes,Yes,Phone,Central,7,Negative,2024-01-29,Mortgage,35,0.21,66,2
